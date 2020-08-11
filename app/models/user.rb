@@ -26,7 +26,7 @@ class User < ApplicationRecord
     BCrypt::Password.create(string, cost: cost)
   end
 
-  # ランダムなトークンを返す
+  # ランダムな22文字の文字列(トークン)を返す
   def User.new_token
     SecureRandom.urlsafe_base64
   end
@@ -107,7 +107,8 @@ class User < ApplicationRecord
       self.email = email.downcase
     end
 
-    # 有効化トークンとダイジェストを作成および代入する
+    # 有効化トークンとダイジェストを作成および代入する。
+    # ユーザーがデータベースで作成される前なので、digestをデータベースに保存しない。
     def create_activation_digest
       self.activation_token  = User.new_token
       self.activation_digest = User.digest(activation_token)

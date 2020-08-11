@@ -6,7 +6,7 @@ before_action :correct_user,   only: :destroy
     @micropost = current_user.microposts.build(micropost_params)
     @micropost.image.attach(params[:micropost][:image])
     if @micropost.save
-      flash[:success] = "Micropost created!"
+      flash[:success] = "投稿が完了しました。"
       redirect_to root_url
     else
       @feed_items = current_user.feed.paginate(page: params[:page])
@@ -16,7 +16,7 @@ before_action :correct_user,   only: :destroy
 
   def destroy
     @micropost.destroy
-    flash[:success] = "Micropost deleted"
+    flash[:success] = "投稿が削除されました。"
     redirect_to request.referrer || root_url
   end
 
