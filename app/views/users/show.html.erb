@@ -13,7 +13,9 @@
   </aside>
 
   <div class="col-md-8">
-    <%= render 'follow_form' if logged_in? %>
+    <%# フォロー・フォロー中のボタン %>
+    <%= render 'follow_form' if logged_in? %>  
+
     <% if @user.microposts.any? %>
       <h3>投稿 (<%= @user.microposts.count %>)</h3>
       <ol class="microposts">
@@ -21,6 +23,7 @@
       </ol>
       <%= will_paginate @microposts %>
     <% end %>
+
   </div>
 
 </div>

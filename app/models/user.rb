@@ -49,8 +49,7 @@ class User < ApplicationRecord
     update_attribute(:remember_digest, nil)
   end
 
-  # 試作feedの定義
-  # 完全な実装は次章の「ユーザーをフォローする」を参照
+  # ユーザー自身とuser_followingsのステータスフィードを返す
   def feed
     following_ids = "SELECT followed_id FROM relationships
               WHERE follower_id = :user_id"
