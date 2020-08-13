@@ -14,7 +14,7 @@ class PasswordResetsController < ApplicationController
       flash[:info] = "パスワードリセットのためのemailを送付しました。"
       redirect_to root_url
     else
-      flash.now[:danger] = "メールアドレスが登録されていません。"
+      flash.now[:danger] = "一致するユーザーが見つかりませんでした。"
       render 'new'
     end
   end

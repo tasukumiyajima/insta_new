@@ -1,18 +1,20 @@
 <% provide(:title, "パスワードをリセット") %>
-<h1>ログインできない場合</h1>
 
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <%= form_with(url: password_resets_path, scope: :password_reset,
-                    local: true) do |f| %>
-      <%= f.label :"メールアドレス" %>
-      <%= f.email_field :email, class: 'form-control' %>
+<div class="row center">
+  <div class="main-form col-6 col-xs-offset-3">
+    <div class="box-password">
+      <h4>ログインできない場合</h4>
+      <small class="sub-text">アカウントにアクセスするためのログインリンクを送信するため、ユーザーネームまたはメールアドレスを入力してください。</small>
+      <%= form_with(url: password_resets_path, scope: :password_reset, local: true) do |f| %>
+        <%= f.label :"メールアドレス" %>
+        <%= f.email_field :email, class: 'form-control' %>
 
-      <%= f.submit "ログインリンクを送信", class: "btn btn-primary" %>
+        <%= f.submit "ログインリンクを送信", class: "btn btn-primary" %>
+      <% end %>
 
-      <p>または</p>
-      <%= link_to "新しいアカウントを作成", signup_path %></p>
-      <%= link_to "ログインに戻る", root_path %></p>
-    <% end %>
+        <p>または</p>
+        <%= link_to "新しいアカウントを作成", signup_path %></p>    
+    </div>
+    <%= link_to "ログインに戻る", root_path, class: "btn btn-default login-btn" %></p>
   </div>
 </div>

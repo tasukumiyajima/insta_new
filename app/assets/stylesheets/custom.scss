@@ -3,6 +3,7 @@
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
+$gray-blue: #02386A;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -58,20 +59,22 @@ p {
   line-height: 1.7em;
 }
 
+.image_tag {
+  padding-bottom: 20px;
+}
 
 /* header */
 
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid $gray-medium-light;
+}
+
 #logo {
   float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
+  margin-right: 20px;
+  padding-top: 13px;
   &:hover {
-    color: white;
     text-decoration: none;
   }
 }
@@ -81,25 +84,63 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
   a {
-    color: $gray;
-    &:hover {
-      color: $gray-darker;
-    }
+    color: $gray-blue;
+    font-size: 0.9em;
   }
   small {
-    float: left;
+    float: right;
+    color: $gray-light;
   }
   ul {
-    float: right;
+    float: left;
     list-style: none;
     li {
       float: left;
       margin-left: 15px;
     }
   }
+}
+
+// Home・Signup
+.main-form {
+  width: 350px;
+  .box-1 {
+    border: 1px solid $gray-medium-light;
+    padding: 40px;
+    h4 {
+      color: $gray-light;
+      padding-bottom:20px;
+    }
+    button {
+      width: 100%;
+    }
+    .sub-text {
+      color: $gray-light;
+    }
+  }
+  .box-2 {
+    border: 1px solid $gray-medium-light;
+    padding: 20px 40px 10px 40px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    p {
+      font-size:small;
+    }
+  }
+}
+
+// password_reset
+.box-password {
+  border: 1px solid $gray-medium-light;
+  padding: 40px;
+  .sub-text {
+    color: $gray-light;
+  }
+}
+
+.login-btn {
+  width: 100%;
 }
 
 /* miscellaneous */
