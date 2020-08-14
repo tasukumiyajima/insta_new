@@ -49,7 +49,7 @@ class User < ApplicationRecord
     update_attribute(:remember_digest, nil)
   end
 
-  # ユーザー自身(user_id)とフォロー中のユーザー(followings_ids)のステータスフィードを返す
+  # ユーザー自身(user_id)とフォロー中のユーザー(followings_ids)のMicropostsを返す
   def feed
     following_ids = "SELECT followed_id FROM relationships
               WHERE follower_id = :user_id"
