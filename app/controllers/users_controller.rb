@@ -5,13 +5,12 @@ before_action :correct_user,   only: [:edit, :update]
 before_action :admin_user, only: :destroy
 
   def index
-    @users = User.where(activated: true).paginate(page: params[:page])
+    @users = User.paginate(page: params[:page])
   end
 
   def show
     @user=User.find(params[:id])
     @microposts = @user.microposts.paginate(page: params[:page])
-    redirect_to root_url and return unless @user.activated?
   end
 
   def new
@@ -21,9 +20,10 @@ before_action :admin_user, only: :destroy
   def create
     @user = User.new(user_params)
     if @user.save
-      @user.send_activation_email
-      flash[:info] = "emailを確認してアカウントを有効化してください。"
-      redirect_to root_url
+      log_in @user
+      remember(@user)
+      flash[:success] = "アカウントが作成されました"
+      redirect_to @user
     else
       render 'new'
     end
@@ -65,8 +65,7 @@ before_action :admin_user, only: :destroy
   private
 
     def user_params
-      params.require(:user).permit(:name, :email, :password,
-                                  :password_confirmation)
+      params.require(:user).permit(:email, :name, :user_name, :password)
     end
 
     # beforeアクション

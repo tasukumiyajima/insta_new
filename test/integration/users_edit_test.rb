@@ -11,6 +11,7 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     get edit_user_path(@user)
     assert_template 'users/edit'
     patch user_path(@user), params: { user: { name:  "",
+                                              user_name: "",
                                               email: "foo@invalid",
                                               password:              "foo",
                                               password_confirmation: "bar" } }
@@ -28,6 +29,7 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     name  = "Foo Bar"
     email = "foo@bar.com"
     patch user_path(@user), params: { user: { name:  name,
+                                              user_name: name,
                                               email: email,
                                               password:              "",
                                               password_confirmation: "" } }

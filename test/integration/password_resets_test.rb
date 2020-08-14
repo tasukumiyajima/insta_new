@@ -28,11 +28,6 @@ class PasswordResetsTest < ActionDispatch::IntegrationTest
     # メールアドレスが無効
     get edit_password_reset_path(user.reset_token, email: "")
     assert_redirected_to root_url
-    # 無効なユーザー
-    user.toggle!(:activated)
-    get edit_password_reset_path(user.reset_token, email: user.email)
-    assert_redirected_to root_url
-    user.toggle!(:activated)
     # メールアドレスが有効で、トークンが無効
     get edit_password_reset_path('wrong token', email: user.email)
     assert_redirected_to root_url
