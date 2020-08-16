@@ -14,19 +14,17 @@ class MicropostsInterfaceTest < ActionDispatch::IntegrationTest
     assert_select 'input[type="file"]'
     # 無効な送信
     assert_no_difference 'Micropost.count' do
-      post microposts_path, params: { micropost: { content: "" } }
+      post microposts_path, params: { micropost: { picture: ""} }
     end
     assert_select 'div#error_explanation'
-    # assert_select 'a[href=?]', '/?page=2'  # 正しいページネーションリンク
     # 有効な送信
-    content = "This micropost really ties the room together"
-    image = fixture_file_upload('test/fixtures/kitten.jpg', 'image/jpeg')
+    picture = fixture_file_upload('test/fixtures/kitten.jpg', 'image/jpg')
     assert_difference 'Micropost.count', 1 do
-      post microposts_path, params: { micropost: { content: content, image:image } }
+      post microposts_path, params: { micropost: { picture: picture } }
     end
-    assert assigns(:micropost).image.attached?
+    assert assigns(:micropost).picture?
     follow_redirect!
-    assert_match content, response.body
+    # assert_match picture, response.body
     # 投稿を削除する
     assert_select 'a', text: '削除'
     first_micropost = @user.microposts.paginate(page: 1).first
@@ -47,7 +45,9 @@ class MicropostsInterfaceTest < ActionDispatch::IntegrationTest
     log_in_as(other_user)
     get new_micropost_path
     assert_match "投稿数：0", response.body
-    other_user.microposts.create!(content: "A micropost")
+    # 画像を投稿する
+    picture = fixture_file_upload('test/fixtures/kitten.jpg', 'image/jpg')
+    other_user.microposts.create!(picture: picture)
     get new_micropost_path
     assert_match "投稿数：1", response.body
   end

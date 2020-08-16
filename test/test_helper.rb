@@ -9,6 +9,8 @@ class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
   include ApplicationHelper
+  include ActionDispatch::TestProcess
+
 
   # テストユーザーがログイン中の場合にtrueを返す
   def is_logged_in?
@@ -19,7 +21,9 @@ class ActiveSupport::TestCase
   def log_in_as(user)
     session[:user_id] = user.id
   end
+
 end
+
 
 class ActionDispatch::IntegrationTest
 

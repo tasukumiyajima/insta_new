@@ -7,8 +7,9 @@ class MicropostsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should redirect create when not logged in" do
+    picture = fixture_file_upload('test/fixtures/kitten.jpg', 'image/jpg')
     assert_no_difference 'Micropost.count' do
-      post microposts_path, params: { micropost: { content: "Lorem ipsum" } }
+      post microposts_path, params: { micropost: { picture: picture } }
     end
     assert_redirected_to root_url
   end
@@ -30,3 +31,4 @@ class MicropostsControllerTest < ActionDispatch::IntegrationTest
   end
 
 end
+

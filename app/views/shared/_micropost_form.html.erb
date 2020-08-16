@@ -1,24 +1,23 @@
 <%= form_with(model: @micropost, local: true) do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
 
+  <span class="picture">
+    <%= f.file_field :picture, accept: 'image/jpeg, image/png' %>
+  </span>
+
   <div class="field">
     <%= f.text_area :content, placeholder: "..." %>
   </div>
-  
+
   <%= f.submit "投稿する", class: "btn btn-primary" %>
-  
-  <span class="image">
-    <%= f.file_field :image, accept: "image/jpeg,image/png" %>
-  </span>
 
 <% end %>
 
 <script type="text/javascript">
-  $("#micropost_image").bind("change", function() {
+  $('#micropost_picture').bind('change', function() {
     var size_in_megabytes = this.files[0].size/1024/1024;
     if (size_in_megabytes > 5) {
-      alert("サイズが5MB以下の画像を選択してください");
-      $("#micropost_image").val("");
+      alert('サイズが5MB以下の画像を選択してください');
     }
   });
 </script>

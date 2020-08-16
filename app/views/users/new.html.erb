@@ -14,17 +14,13 @@
       <%= form_with(model: @user, local: true) do |f| %>
         <%= render 'shared/error_messages', object: f.object %>
 
-        <%= f.label :"メールアドレス" %>
-        <%= f.email_field :email, class: 'form-control' %>
+        <%= f.email_field :email, class: 'form-control', placeholder: "メールアドレス" %>
 
-        <%= f.label :"フルネーム" %>
-        <%= f.text_field :name, class: 'form-control' %>
+        <%= f.text_field :name, class: 'form-control', placeholder: "フルネーム" %>
 
-        <%= f.label :"ユーザーネーム" %>
-        <%= f.text_field :user_name, class: 'form-control' %>
+        <%= f.text_field :user_name, class: 'form-control', placeholder: "ユーザーネーム" %>
 
-        <%= f.label :"パスワード" %>
-        <%= f.password_field :password, class: 'form-control' %>
+        <%= f.password_field :password, class: 'form-control', placeholder: "パスワード" %>
 
         <%# <%= f.label :"パスワード(再入力)" %>
         <%# <%= f.password_field :password_confirmation, class: 'form-control' %>
