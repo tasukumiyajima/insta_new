@@ -77,15 +77,14 @@ class UserTest < ActiveSupport::TestCase
     assert_not @user.authenticated?(:remember, '')
   end
 
-  # test "associated microposts should be destroyed" do
-  #   @user.save
-  #   picture = fixture_file_upload('test/fixtures/kitten.jpg', 'image/jpg')
-  #   picture= fixture_file_upload(Rails.root.join('test','fixtures','files', 'kitten.jpg'))
-  #   @user.microposts.create!(picture: picture)
-  #   assert_difference 'Micropost.count', -1 do
-  #     @user.destroy
-  #   end
-  # end
+  test "associated microposts should be destroyed" do
+    @user.save
+    picture = fixture_file_upload('test/fixtures/kitten.jpg', 'image/jpg')
+    @user.microposts.create!(picture: picture)
+    assert_difference 'Micropost.count', -1 do
+      @user.destroy
+    end
+  end
 
   test "should follow and unfollow a user" do
     michael = users(:michael)
@@ -115,5 +114,6 @@ class UserTest < ActiveSupport::TestCase
       assert_not michael.feed.include?(post_unfollowed)
     end
   end
+
 
 end

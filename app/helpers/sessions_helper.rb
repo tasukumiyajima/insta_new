@@ -30,6 +30,11 @@ module SessionsHelper
     !current_user.nil?
   end
 
+  # 渡されたユーザーがcurrent_userであればtrueを返す
+  def current_user?(user)
+    user && user == current_user
+  end
+
   # user.forget -> データベースのremember_digestを破棄する
   # さらにcookiesのuser_idとremember_tokenを削除
   def forget(user)
@@ -44,11 +49,6 @@ module SessionsHelper
     forget(current_user)
     session.delete(:user_id)
     @current_user = nil
-  end
-
-  # 渡されたユーザーがcurrent_userであればtrueを返す
-  def current_user?(user)
-    user && user == current_user
   end
 
   # 記憶したURL（もしくはデフォルト値）にリダイレクト

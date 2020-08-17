@@ -18,10 +18,14 @@
 
     <% if @user.microposts.any? %>
       <h3>投稿 (<%= @user.microposts.count %>)</h3>
+
+      <%# micropostのリストを推測して表示する %>
       <ol class="microposts">
         <%= render @microposts %>
       </ol>
+
       <%= will_paginate @microposts %>
+
     <% end %>
 
   </div>

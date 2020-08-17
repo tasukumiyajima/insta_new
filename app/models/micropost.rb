@@ -5,6 +5,7 @@ class Micropost < ApplicationRecord
   validates :user_id, presence: true
   validates :picture, presence: true
   validate  :picture_size
+  has_many :comments, dependent: :destroy
 
   # アップロードされた画像のサイズをバリデーションする
   def picture_size

@@ -1,7 +1,9 @@
 <% if logged_in? %>
   <div class="row">
     <div class="col-md-8">
+
       <%= render 'shared/feed' %>
+
     </div>
   </div>
 <% else %>
@@ -17,11 +19,8 @@
         <%= link_to image_tag("instagram.png", alt: "logo", width: "200px", class: "image_tag"), root_path %>
 
         <%= form_with(url: login_path, scope: :session, local: true) do |f| %>
-
           <%= f.email_field :email, class: 'form-control', placeholder: "メールアドレス" %>
-
           <%= f.password_field :password, class: 'form-control', placeholder: "パスワード" %>
-
           <%= f.submit "ログイン", class: "btn btn-primary" %>
         <% end %>
 
