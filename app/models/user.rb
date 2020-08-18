@@ -1,6 +1,5 @@
 class User < ApplicationRecord
   has_many :microposts, dependent: :destroy
-  has_many :comments
   has_many :active_relationships, class_name:  "Relationship",
                                   foreign_key: "follower_id",
                                   dependent:   :destroy
@@ -9,6 +8,7 @@ class User < ApplicationRecord
                                    dependent:   :destroy
   has_many :following, through: :active_relationships, source: :followed
   has_many :followers, through: :passive_relationships, source: :follower
+
   attr_accessor :remember_token, :reset_token
   before_save :downcase_email
   validates :name, presence: true, length: { maximum: 50 }
@@ -19,6 +19,10 @@ class User < ApplicationRecord
                     uniqueness: true
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
+  has_many :comments
+
+  has_many :bookmarks, dependent: :destroy
+  has_many :bookmarked_microposts, through: :bookmarks, source: :micropost
 
   # 渡された文字列のハッシュ値を返す
   def User.digest(string)
@@ -71,6 +75,16 @@ class User < ApplicationRecord
   # 現在のユーザーがフォローしてたらtrueを返す
   def following?(other_user)
     following.include?(other_user)
+  end
+
+  # micropostをブックマークする
+  def bookmark(micropost)
+    bookmarked_microposts << micropost
+  end
+
+  # ユーザーがmicropostをブックマークしていたらtrueを返す
+  def bookmarked_microposts?(micropost)
+    bookmarked_microposts.include?(micropost)
   end
 
   # パスワード再設定のtokenを発行して、digestをデータベースに保存

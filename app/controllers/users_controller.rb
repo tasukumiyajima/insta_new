@@ -10,6 +10,7 @@ before_action :admin_user, only: :destroy
 
   def show
     @user=User.find(params[:id])
+    # @micropost = Micropost.find(params[:id])
     @microposts = @user.microposts.paginate(page: params[:page])
     @comment = current_user.comments.build if logged_in?
   end

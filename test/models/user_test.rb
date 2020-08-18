@@ -115,5 +115,31 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
+  test "should bookmark and clear_bookmark a micropost" do
+    michael = users(:michael)
+    zone  = microposts(:zone)
+    assert_not michael.bookmarked_microposts?(zone)
+    michael.bookmark(zone)
+    assert michael.bookmarked_microposts?(zone)
+  end
+
+  # test "feed should have the right posts" do
+  #   michael = users(:michael)
+  #   archer  = users(:archer)
+  #   lana    = users(:lana)
+  #   # michaelがフォローしているユーザーであるlanaの投稿を確認
+  #   lana.microposts.each do |post_following|
+  #     assert michael.feed.include?(post_following)
+  #   end
+  #   # 自分自身の投稿を確認
+  #   michael.microposts.each do |post_self|
+  #     assert michael.feed.include?(post_self)
+  #   end
+  #   # michaelがフォローしていないユーザーであるarcherの投稿を確認
+  #   archer.microposts.each do |post_unfollowed|
+  #     assert_not michael.feed.include?(post_unfollowed)
+  #   end
+  # end
+
 
 end

@@ -3,6 +3,24 @@
   <div class="title-bar">
     <%= link_to gravatar_for(micropost.user, size: 40), micropost.user %>
     <span class="user"><%= link_to micropost.user.name, micropost.user %></span>
+
+    <div id="bookmark_form">
+      <% if current_user.bookmarked_microposts?(micropost) %>
+        <%# <%= render 'shared/clear_bookmark' %>
+        <%= form_with(model: current_user.bookmarks.find_by(micropost_id: micropost.id),
+                                                html: { method: :delete }, local: true) do |f| %>
+          <%= f.submit "お気に入りから外す", class: "btn" %> 
+        <% end %> 
+
+      <% else %>
+        <%# <%= render 'shared/bookmark' %>
+        <%= form_with(model: current_user.bookmarks.build, local: true) do |f| %>
+          <div><%= hidden_field_tag :micropost_id, micropost.id %></div>
+          <%= f.submit "お気に入りに入れる", class: "btn btn-primary" %>
+        <% end %>
+
+      <% end %>
+    </div>
   </div>
 
   <span class="content">

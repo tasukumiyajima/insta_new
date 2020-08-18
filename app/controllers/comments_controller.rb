@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-  before_action :logged_in_user, only: [:create, :destroy]
+  before_action :logged_in_user
   before_action :correct_user,   only: :destroy
 
   def create
@@ -26,6 +26,7 @@ class CommentsController < ApplicationController
     end
 
     # 自分のコメントか、自分の投稿のコメントのみ消去できる
+    # つまり他人の投稿についている他人のコメントは消去できない
     def correct_user
       @comment = Comment.find(params[:id])
       @micropost = Micropost.find(params[:micropost_id])

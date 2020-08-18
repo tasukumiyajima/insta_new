@@ -1,4 +1,5 @@
 class Micropost < ApplicationRecord
+
   belongs_to :user
   default_scope -> { order(created_at: :desc) }
   mount_uploader :picture, PictureUploader
@@ -6,6 +7,7 @@ class Micropost < ApplicationRecord
   validates :picture, presence: true
   validate  :picture_size
   has_many :comments, dependent: :destroy
+  has_many :bookmarks, dependent: :destroy
 
   # アップロードされた画像のサイズをバリデーションする
   def picture_size
