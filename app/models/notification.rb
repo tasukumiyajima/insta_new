@@ -3,6 +3,7 @@ class Notification < ApplicationRecord
   belongs_to :visited, class_name: "User", optional: true
   belongs_to :micropost, optional: true
   belongs_to :comment, optional: true
+  default_scope -> { order(created_at: :desc) }
 
   validates :visitor_id, presence: true
   validates :visited_id, presence: true

@@ -29,6 +29,9 @@ class User < ApplicationRecord
   has_many :passive_notifications, class_name: "Notification",
                                    foreign_key:"visited_id", 
                                    dependent: :destroy
+  validates :phone_number, numericality: { only_integer: true }, allow_blank: true,
+                           length: { in: 9..12, message:"電話番号は数字のみ入力してください" }
+  validates :sex, inclusion: { in: 1..2 }, allow_blank: true
 
   # 渡された文字列のハッシュ値を返す
   def User.digest(string)

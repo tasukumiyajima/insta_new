@@ -34,6 +34,9 @@ before_action :admin_user, only: :destroy
   def edit
   end
 
+  def password_change
+  end
+
   def update 
     if @user.update(user_params)
       flash[:success] = "プロフィールを更新しました。"
@@ -42,6 +45,15 @@ before_action :admin_user, only: :destroy
       render 'edit'
     end
   end
+
+  # def password_update
+  #   if @user.update(user_password_params)
+  #     flash[:success] = "パスワードを変更しました。"
+  #     redirect_to @user
+  #   else
+  #     render 'password_change'
+  #   end
+  # end
 
   def destroy
     User.find(params[:id]).destroy
@@ -63,12 +75,16 @@ before_action :admin_user, only: :destroy
     render 'show_follow'
   end
 
-
   private
 
     def user_params
-      params.require(:user).permit(:email, :name, :user_name, :password)
+      params.require(:user).permit(:password, :email, :name, :user_name, :website, :introduction, :phone_number, :sex)
     end
+
+    # def user_password_params
+    #   params.require(:user).permit(:password)
+    # end
+
 
     # beforeアクション
 
