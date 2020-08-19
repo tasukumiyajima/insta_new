@@ -7,6 +7,8 @@ class CommentsController < ApplicationController
     @comment.micropost_id = params[:micropost_id]
     if @comment.save
       flash[:success] = "コメントが投稿されました"
+      @micropost=@comment.micropost
+      @micropost.create_comment_notification!(current_user, @comment)
       redirect_to request.referrer || root_url
     else
       flash[:danger] = "コメントの投稿に失敗しました"

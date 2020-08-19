@@ -20,9 +20,15 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
   has_many :comments
-
   has_many :bookmarks, dependent: :destroy
   has_many :bookmarked_microposts, through: :bookmarks, source: :micropost
+
+  has_many :active_notifications, class_name: "Notification",
+                                  foreign_key:"visitor_id",
+                                  dependent: :destroy
+  has_many :passive_notifications, class_name: "Notification",
+                                   foreign_key:"visited_id", 
+                                   dependent: :destroy
 
   # 渡された文字列のハッシュ値を返す
   def User.digest(string)
@@ -102,6 +108,19 @@ class User < ApplicationRecord
   # パスワード再設定の期限が切れている場合はtrueを返す
   def password_reset_expired?
     reset_sent_at < 2.hours.ago
+  end
+
+  def create_follow_notification!(visitor)
+    #すでに通知が作成されているか確認
+    temp = Notification.where(["visitor_id = ? and visited_id = ? and action = ? ",
+                              visitor.id, id, 'follow'])
+    if temp.blank?
+      notification = visitor.active_notifications.new(
+        visited_id: id,
+        action: 'follow'
+      )
+      notification.save if notification.valid?
+    end
   end
 
   private

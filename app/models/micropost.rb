@@ -1,5 +1,4 @@
 class Micropost < ApplicationRecord
-
   belongs_to :user
   default_scope -> { order(created_at: :desc) }
   mount_uploader :picture, PictureUploader
@@ -8,6 +7,7 @@ class Micropost < ApplicationRecord
   validate  :picture_size
   has_many :comments, dependent: :destroy
   has_many :bookmarks, dependent: :destroy
+  has_many :notifications, dependent: :destroy
 
   # アップロードされた画像のサイズをバリデーションする
   def picture_size
@@ -16,4 +16,40 @@ class Micropost < ApplicationRecord
     end
   end
 
+  #ブックマークされたmicropostのユーザーへの通知を作成する
+  def create_bookmark_notification!(visitor)
+    #すでに通知が作成されているか確認
+    temp = Notification.where(["visitor_id = ? and visited_id = ? and micropost_id = ? and action = ? ",
+                                  visitor.id, user_id, id, 'bookmark'])
+    if temp.blank?
+      notification = visitor.active_notifications.new(
+        visited_id: user_id,
+        micropost_id: id,
+        action: "bookmark"
+        )
+      if notification.visitor_id == notification.visited_id
+         notification.checked = true
+      end
+      notification.save if notification.valid?
+    end
+  end
+
+  # コメントがあったmicropostのユーザーへの通知を作成する
+  def create_comment_notification!(visitor, comment)
+    #すでに通知が作成されているか確認
+    temp = Notification.where(["visitor_id = ? and visited_id = ? and comment_id = ? and action = ? ",
+                                    visitor.id, user_id, comment.id, 'comment'])
+    if temp.blank?
+      notification = visitor.active_notifications.new(
+        visited_id: user_id,
+        micropost_id: id,
+        comment_id: comment.id,
+        action: 'comment'
+      )
+      if notification.visitor_id == notification.visited_id
+        notification.checked = true
+      end
+      notification.save if notification.valid?
+    end
+  end
 end

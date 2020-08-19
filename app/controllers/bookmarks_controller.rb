@@ -4,6 +4,7 @@ class BookmarksController < ApplicationController
   def create
     micropost = Micropost.find(params[:micropost_id])
     current_user.bookmark(micropost)
+    micropost.create_bookmark_notification!(current_user)
     redirect_to request.referrer || root_url
   end
 
