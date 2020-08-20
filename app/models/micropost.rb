@@ -52,4 +52,10 @@ class Micropost < ApplicationRecord
       notification.save if notification.valid?
     end
   end
+
+  # 検索ワード(search)をcontentに含むmicropostを探す
+  def self.search(search)
+    Micropost.where(['content LIKE ?', "%#{search}%"]) if search
+  end
+
 end

@@ -43,7 +43,7 @@
   </ul>
 
   <div class="comment-post">
-    <%= form_with(model: [@micropost, @comment], url: micropost_comments_path(micropost.id), 
+    <%= form_with(model: [@micropost, @comment], url: micropost_comments_path(micropost.id),
                                                       method: :post, local: true) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
       <%= f.text_field :content %>
