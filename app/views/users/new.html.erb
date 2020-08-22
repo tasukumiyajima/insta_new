@@ -8,7 +8,7 @@
       <%= link_to image_tag("instagram.png", alt: "logo", width: "200px", class: "image_tag"), root_path %>
       <h4>登録して友達の写真や動画をチェックしよう</h4>
 
-      <button type="button" class="btn btn-primary">Facebookでログイン</button>
+      <%= link_to "Facebookでログイン", "/auth/facebook" %>
       <hr class="my-4">
 
       <%= form_with(model: @user, local: true) do |f| %>

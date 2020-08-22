@@ -4,6 +4,25 @@ before_action :logged_in_user, only: [:index, :edit, :update, :destroy,
 before_action :correct_user,   only: [:edit, :update]
 before_action :admin_user, only: :destroy
 
+  def facebook_login
+    @user = User.from_omniauth(request.env["omniauth.auth"])
+      result = @user.save(context: :facebook_login)
+      if result
+        log_in @user
+        redirect_to @user
+        flash[:success] = 'ログインしました'
+      else
+        redirect_to auth_failure_path
+        flash[:danger] = 'ログインできません'
+      end
+  end
+
+  #認証に失敗した際の処理
+  def auth_failure 
+    @user = User.new
+    redirect_to root_url
+  end
+
   def index
     @users = User.paginate(page: params[:page])
   end

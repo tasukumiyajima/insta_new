@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/auth/:provider/callback', to: 'users#facebook_login', as: :auth_callback
+  get '/auth/failure', to: 'users#auth_failure', as: :auth_failure
   root 'static_pages#home'
   get '/home', to: 'static_pages#home'
   get '/search', to: 'static_pages#search'
@@ -7,7 +9,7 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
   get '/password', to: 'users#password_change'
   post '/password', to: 'users#password_update'
-
+  
   resources :users do
     member do
       get :following, :followers

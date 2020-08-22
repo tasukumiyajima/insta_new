@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_19_101058) do
+ActiveRecord::Schema.define(version: 2020_08_22_141118) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -104,6 +104,9 @@ ActiveRecord::Schema.define(version: 2020_08_19_101058) do
     t.text "introduction"
     t.integer "phone_number"
     t.integer "sex"
+    t.string "uid"
+    t.string "oauth_token"
+    t.string "oauth_expires_at"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

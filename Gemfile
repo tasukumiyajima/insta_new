@@ -21,6 +21,9 @@ gem 'bootsnap',                   '1.4.5', require: false
 gem 'rails-i18n'
 gem 'pry-rails'
 gem 'font-awesome-rails'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'

@@ -10,15 +10,16 @@ class User < ApplicationRecord
   has_many :followers, through: :passive_relationships, source: :follower
 
   attr_accessor :remember_token, :reset_token
-  before_save :downcase_email
+  before_save :downcase_email, unless: :uid?
   validates :name, presence: true, length: { maximum: 50 }
   validates :user_name, presence: true, length: { maximum: 50 }
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, length: { maximum: 255 },
                     format: { with: VALID_EMAIL_REGEX },
                     uniqueness: true
-  has_secure_password
-  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
+  has_secure_password validations: false
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true, on: :facebook_login
+
   has_many :comments
   has_many :bookmarks, dependent: :destroy
   has_many :bookmarked_microposts, through: :bookmarks, source: :micropost
@@ -124,6 +125,20 @@ class User < ApplicationRecord
       )
       notification.save if notification.valid?
     end
+  end
+
+  def self.from_omniauth(auth)
+    user = User.where('email = ?', auth.info.email).first
+    if user.blank?
+       user = User.new
+    end
+    user.uid   = auth.uid
+    user.name  = auth.info.name
+    user.user_name = auth.info.name
+    user.email = auth.info.email
+    user.oauth_token = auth.credentials.token
+    user.oauth_expires_at = Time.at(auth.credentials.expires_at)
+    user
   end
 
   private
