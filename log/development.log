@@ -9494,3 +9494,87 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 27268)
 
 
+Started GET "/auth/facebook" for ::1 at 2020-08-23 17:01:04 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/auth/facebook" for ::1 at 2020-08-23 17:01:05 +0900
+Started GET "/auth/facebook/callback?code=AQC2kEnvTZOAm6BWec3Cut8tDbFejdCtxvVFrRK2lExuvS8t96CJdzfR2dadrtHGObhvqTabBIdtnfxCb-5aNk3PACipAb6v2iGLstQsjKhSfuUCGc8P2HxH5lKKLmkDwLAaHnk_1WZ3D-zExcCraXiZHNymZABJWDLTcJG3wUnnp8DkTEjnaC8d9hoePICRszI8GzQ_L5DHOTi42RKAnMp-_-_FQBcriXOL83riLFt4zU0CBUgfkoqFbJ7uUALWy12dHr2FMY3aq4cw_YW9ydZ2LCinwwHwdcxLZlNBCNg24aUEbH1uN8MD43-8kyjbdV_qEnj4wX-udTKO-bVoGusvCXa2do8-9jfOxAWTl7ffhQ&state=9f31fc0b008c84476f02332e0abc92676c43e264510abb91" for ::1 at 2020-08-23 17:01:06 +0900
+Processing by UsersController#facebook_login as HTML
+  Parameters: {"code"=>"AQC2kEnvTZOAm6BWec3Cut8tDbFejdCtxvVFrRK2lExuvS8t96CJdzfR2dadrtHGObhvqTabBIdtnfxCb-5aNk3PACipAb6v2iGLstQsjKhSfuUCGc8P2HxH5lKKLmkDwLAaHnk_1WZ3D-zExcCraXiZHNymZABJWDLTcJG3wUnnp8DkTEjnaC8d9hoePICRszI8GzQ_L5DHOTi42RKAnMp-_-_FQBcriXOL83riLFt4zU0CBUgfkoqFbJ7uUALWy12dHr2FMY3aq4cw_YW9ydZ2LCinwwHwdcxLZlNBCNg24aUEbH1uN8MD43-8kyjbdV_qEnj4wX-udTKO-bVoGusvCXa2do8-9jfOxAWTl7ffhQ", "state"=>"9f31fc0b008c84476f02332e0abc92676c43e264510abb91", "provider"=>"facebook"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE (email = 'miyajima.tasuku.21@gmail.com') ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/models/user.rb:131:in `from_omniauth'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "miyajima.tasuku.21@gmail.com"], ["id", 101], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["oauth_token", "EAAm3fmJNWGABAHAH69ZCrxDJvRIxfPdVeh4TaTtK9erdtt7gSj5ewB7GZBo3AY1KZAiyogdoev9uAsy4AliKoqFwPgeXAR4KkZCDcionKdJRnjJN4QcCwqP6SIm07fBwYkV0Mj9Y6LOiZBwLDdoVMW4zviuAZCnNPYmvxJWmzXZBAZDZD"], ["updated_at", "2020-08-23 08:01:08.345774"], ["id", 101]]
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:52:in `remember'
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = ?, "remember_digest" = ? WHERE "users"."id" = ?[0m  [["updated_at", "2020-08-23 08:01:08.539657"], ["remember_digest", "$2a$12$N5kSibwL61E5dCLBjmN9i.6nePVj8xcryx2WQi5byu67Bw0pFlxkq"], ["id", 101]]
+  ↳ app/models/user.rb:52:in `remember'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:52:in `remember'
+Redirected to http://localhost:3000/users/101
+Completed 302 Found in 201ms (ActiveRecord: 2.9ms | Allocations: 7332)
+
+
+Started GET "/users/101" for ::1 at 2020-08-23 17:01:08 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32:in `show'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:6
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:13
+  Rendered shared/_stats.html.erb (Duration: 2.4ms | Allocations: 2190)
+  Rendered users/_follow_form.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? LIMIT ?[0m  [["user_id", 101], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:24
+  Rendered users/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3158)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 896)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 41ms (Views: 37.9ms | ActiveRecord: 0.6ms | Allocations: 51127)
+
+
+Started DELETE "/logout" for ::1 at 2020-08-23 17:01:12 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HuKYTrfnUpKvxnhW6HZS3wduYvPBAPzCQ6iLjjxPPRT5TUUn/cydVtPoNJtADvFDht6pJ/KKEw1rsAeomB4ALg=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:64:in `forget'
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", nil], ["updated_at", "2020-08-23 08:01:12.143229"], ["id", 101]]
+  ↳ app/models/user.rb:64:in `forget'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:64:in `forget'
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms | Allocations: 3365)
+
+
+Started GET "/" for ::1 at 2020-08-23 17:01:12 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 27257)
+
+
+Started GET "/" for ::1 at 2020-08-23 17:01:13 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms | Allocations: 27270)
+
+
