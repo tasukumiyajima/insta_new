@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all',
@@ -9,7 +8,11 @@
     <%= javascript_pack_tag 'application',
                                'data-turbolinks-track': 'reload' %>
     <%=render 'layouts/shim'%>
-    <link rel="icon" sizes="192×192" href="coding/potepan/insta_app/app/assets/images/favicon.png">
+    <title><%= full_title(yield(:title)) %></title>
+    <meta name="description" content="インスタグラムのコピーサイトです。画像の投稿ができる簡易的なSNSです。">
+    <meta name="keywords" content="コピーサイト, ポートフォリオ, エンジニア初心者">
+    <%= favicon_link_tag('favicon.ico') %>
+    <%= analytics_init if Rails.env.production? %>
   </head>
   <body>
     <%=render 'layouts/header'%>

@@ -10534,3 +10534,1579 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 27269)
 
 
+Started GET "/" for ::1 at 2020-08-23 22:40:25 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2513)
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 380)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 423)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms | Allocations: 29922)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:29 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2504)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 380)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 423)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 29882)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:30 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2504)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 380)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 423)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 29892)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:30 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2098)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 27283)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:30 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms | Allocations: 27275)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:30 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 27257)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:31 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 27253)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:32 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 27259)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:52 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2509)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 380)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 423)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 29910)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:52 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2098)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 27290)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:53 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2087)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 27280)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:53 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 27275)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:53 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 27259)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:43:53 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2086)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 27265)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:45:35 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2509)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 88)
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 387)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 423)
+Completed 200 OK in 1005ms (Views: 1003.9ms | ActiveRecord: 0.0ms | Allocations: 1235005)
+
+
+Started GET "/auth/facebook" for ::1 at 2020-08-23 22:48:23 +0900
+Started GET "/auth/facebook" for ::1 at 2020-08-23 22:48:23 +0900
+Started GET "/auth/facebook/callback?code=AQAMrCSFj1Pvi453aWsU-3yk7VIPqVSzKYekDntRJO6wYL-VK7Pf4fB9sWcsLrtamFmJqLzMrnaJZOamgzh-XWgbEiiopr1Bp1uS0vPvTJv3Bi-Ey8AW6MiVLiVoJJV1B5nI7XdGy3LTHLQwtHsfaVccNBsRSzTPk1B6uYMIomgb6GI0JD5BZeFTRUiClGwOUOIwwq_Itq_8cWV1CvskJSvt6lwvn6PCXcHcFGBsbDyFzNKyrQipyCJjKUDF_FeD7moXrIUeJ3tqrO6m10Qxdoc0EEw3YSV2FFLc2FJH8MSpw_KbAcaHgLR9iANbA12kdNpdsZ_TtbxKx1oexTDet3PkJoyidmLnTeaiBFS3Dq2zNA&state=2eff9673fbbeeef2df634c16fc8d4bae1c354fc240c4dd5e" for ::1 at 2020-08-23 22:48:24 +0900
+Processing by UsersController#facebook_login as HTML
+  Parameters: {"code"=>"AQAMrCSFj1Pvi453aWsU-3yk7VIPqVSzKYekDntRJO6wYL-VK7Pf4fB9sWcsLrtamFmJqLzMrnaJZOamgzh-XWgbEiiopr1Bp1uS0vPvTJv3Bi-Ey8AW6MiVLiVoJJV1B5nI7XdGy3LTHLQwtHsfaVccNBsRSzTPk1B6uYMIomgb6GI0JD5BZeFTRUiClGwOUOIwwq_Itq_8cWV1CvskJSvt6lwvn6PCXcHcFGBsbDyFzNKyrQipyCJjKUDF_FeD7moXrIUeJ3tqrO6m10Qxdoc0EEw3YSV2FFLc2FJH8MSpw_KbAcaHgLR9iANbA12kdNpdsZ_TtbxKx1oexTDet3PkJoyidmLnTeaiBFS3Dq2zNA", "state"=>"2eff9673fbbeeef2df634c16fc8d4bae1c354fc240c4dd5e", "provider"=>"facebook"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE (email = 'miyajima.tasuku.21@gmail.com') ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/models/user.rb:131:in `from_omniauth'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "miyajima.tasuku.21@gmail.com"], ["id", 101], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["oauth_token", "EAAm3fmJNWGABAOMa3yg76hC1anJ5b1cF8DObyNQSddUzh72td6StGITCwYnR6Vr6bLgiOqVgPZAGwoqkXDeZB4wgiegp0KyDCewRaxHO757TICZCcwVMq4PPLK27ArOCjC3gorgmZBG8GGbuZA6VMvcRRvKkZAXhR730C7eQkdagZDZD"], ["oauth_expires_at", "2020-10-22 22:48:24 +0900"], ["updated_at", "2020-08-23 13:48:24.925931"], ["id", 101]]
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:52:in `remember'
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = ?, "remember_digest" = ? WHERE "users"."id" = ?[0m  [["updated_at", "2020-08-23 13:48:25.121751"], ["remember_digest", "$2a$12$DkDs7wvOUYrmUjqTQXTreekKScNV8sdfv0PaTVI/l9hJuTPCmlNCW"], ["id", 101]]
+  ↳ app/models/user.rb:52:in `remember'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:52:in `remember'
+Redirected to http://localhost:3000/users/101
+Completed 302 Found in 204ms (ActiveRecord: 3.1ms | Allocations: 7348)
+
+
+Started GET "/users/101" for ::1 at 2020-08-23 22:48:25 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32:in `show'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:6
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:13
+  Rendered shared/_stats.html.erb (Duration: 3.0ms | Allocations: 2366)
+  Rendered users/_follow_form.html.erb (Duration: 0.8ms | Allocations: 1583)
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? LIMIT ?[0m  [["user_id", 101], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:24
+  Rendered users/show.html.erb within layouts/application (Duration: 6.8ms | Allocations: 6973)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 910)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 45ms (Views: 41.5ms | ActiveRecord: 0.6ms | Allocations: 53776)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:48:35 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:1
+  [1m[36mMicropost Load (0.3ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101) ORDER BY "microposts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  ↳ app/views/shared/_feed.html.erb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 176], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mBookmark Load (0.1ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks" WHERE "bookmarks"."user_id" = ? AND "bookmarks"."micropost_id" = ? LIMIT ?[0m  [["user_id", 101], ["micropost_id", 176], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:10
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 176]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 191)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 170], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 170]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 164], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 164]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 158], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 158]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 152], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 152]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 146], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 146]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 140], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 140]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 134], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 134]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 128], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 128]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 122], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 122]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 116], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 116]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 110], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 110]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 104], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 104]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 98], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 98]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 92], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 92]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 86], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 86]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 80], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 80]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 74], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 74]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 68], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 68]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 62], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 62]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 56], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 56]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 50], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 50]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 44], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 44]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 38], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 38]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 32], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 32]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 26], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 26]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 20], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 20]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 14], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 14]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 8], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 8]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 2], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 2]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered collection of microposts/_micropost.html.erb [30 times] (Duration: 160.8ms | Allocations: 105406)
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:8
+  Rendered shared/_feed.html.erb (Duration: 164.7ms | Allocations: 108291)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 166.4ms | Allocations: 108915)
+  Rendered layouts/_shim.html.erb (Duration: 1.0ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 1277)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 423)
+Completed 200 OK in 193ms (Views: 183.1ms | ActiveRecord: 7.8ms | Allocations: 139251)
+
+
+Started DELETE "/logout" for ::1 at 2020-08-23 22:48:39 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HaqNKBBlFN65W5xHO5fLxNHXveU5u8Bc2TEU7BVj4Zf1egG09kYBnF3MteLVqd9ufcJG5SIqHVsXpcHdBejrtA=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:64:in `forget'
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", nil], ["updated_at", "2020-08-23 13:48:39.138518"], ["id", 101]]
+  ↳ app/models/user.rb:64:in `forget'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:64:in `forget'
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.5ms | Allocations: 3374)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:48:39 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2098)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 28257)
+
+
+Started GET "/auth/facebook" for ::1 at 2020-08-23 22:49:21 +0900
+Started GET "/auth/facebook" for ::1 at 2020-08-23 22:49:21 +0900
+Started GET "/auth/facebook/callback?code=AQBKkw9PuVEBxKDk-CkDVDsbou4Bf80kh_xTnBzk2fCNlaLb3WPLPJchLmZF9T2tzG6bj4XFmZQWBFIZBONLtftrxFYEdgBgkBLegZN0dtu46UcGkH1hsLCuwS9ufVMvqoiAdLp9vbpJfnQGA9cqGOHZ8E1-pugs8K28fpJM6VHrW_ZOmoLk5XxMUnRDnq56SZrHll-Jc6Qa3Tla-4133NrAGLcpG5azJLkKxc58MY4-dRFk7iK6eBho3JdJ-VZzOSGZFU0XlhHFCGGHvtkYDIhZTiBsWlQtfibelvOa5jmzigj1Ysz6b8S9xDPFmSmbJQ4GmPgKX52PX7qBBK-lmejcf20TcCjRKffl_Wh6gcn7jA&state=15f37ac502a56baabc415ac6713c1396bd0816769ec6bf10" for ::1 at 2020-08-23 22:49:22 +0900
+Processing by UsersController#facebook_login as HTML
+  Parameters: {"code"=>"AQBKkw9PuVEBxKDk-CkDVDsbou4Bf80kh_xTnBzk2fCNlaLb3WPLPJchLmZF9T2tzG6bj4XFmZQWBFIZBONLtftrxFYEdgBgkBLegZN0dtu46UcGkH1hsLCuwS9ufVMvqoiAdLp9vbpJfnQGA9cqGOHZ8E1-pugs8K28fpJM6VHrW_ZOmoLk5XxMUnRDnq56SZrHll-Jc6Qa3Tla-4133NrAGLcpG5azJLkKxc58MY4-dRFk7iK6eBho3JdJ-VZzOSGZFU0XlhHFCGGHvtkYDIhZTiBsWlQtfibelvOa5jmzigj1Ysz6b8S9xDPFmSmbJQ4GmPgKX52PX7qBBK-lmejcf20TcCjRKffl_Wh6gcn7jA", "state"=>"15f37ac502a56baabc415ac6713c1396bd0816769ec6bf10", "provider"=>"facebook"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE (email = 'miyajima.tasuku.21@gmail.com') ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/models/user.rb:131:in `from_omniauth'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "miyajima.tasuku.21@gmail.com"], ["id", 101], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["oauth_token", "EAAm3fmJNWGABADfJOZAPJZCxBeVvdZB5EZBavZBzoMwX6JZCW6T0eFuRxW43ZBM7ruRrNZB1Sub9CIi0VWnKBgqmw2OkZAxZBTirpYidPqm2mXCcMR4p4V7EZCZBA2s3eCiGZBV93iF6VuBPippMB9H9owYOSr1nsCXpTB4pZAmin7UI6dmwZDZD"], ["updated_at", "2020-08-23 13:49:22.747453"], ["id", 101]]
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:9:in `facebook_login'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:52:in `remember'
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = ?, "remember_digest" = ? WHERE "users"."id" = ?[0m  [["updated_at", "2020-08-23 13:49:22.946056"], ["remember_digest", "$2a$12$qswvpE4G9junAbbiVExGbuh8QOTNs6hUNhRSOAi8bLBJ1KWViVqdm"], ["id", 101]]
+  ↳ app/models/user.rb:52:in `remember'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:52:in `remember'
+Redirected to http://localhost:3000/users/101
+Completed 302 Found in 206ms (ActiveRecord: 2.8ms | Allocations: 7329)
+
+
+Started GET "/users/101" for ::1 at 2020-08-23 22:49:22 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32:in `show'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:6
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:13
+  Rendered shared/_stats.html.erb (Duration: 2.6ms | Allocations: 2766)
+  Rendered users/_follow_form.html.erb (Duration: 0.4ms | Allocations: 679)
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? LIMIT ?[0m  [["user_id", 101], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:24
+  Rendered users/show.html.erb within layouts/application (Duration: 5.4ms | Allocations: 6282)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 910)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.5ms | Allocations: 53531)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:49:26 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:1
+  [1m[36mMicropost Load (0.5ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101) ORDER BY "microposts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  ↳ app/views/shared/_feed.html.erb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 176], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mBookmark Load (0.2ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks" WHERE "bookmarks"."user_id" = ? AND "bookmarks"."micropost_id" = ? LIMIT ?[0m  [["user_id", 101], ["micropost_id", 176], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:10
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 176]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 170], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 170]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 164], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 164]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 158], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 158]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 152], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 152]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 146], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 146]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 140], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 140]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 134], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 134]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 128], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 128]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 122], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 122]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 116], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 116]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 110], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 110]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 104], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 104]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 98], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 98]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 92], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 92]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 86], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 86]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 80], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 80]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 74], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 74]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 68], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 68]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 62], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 62]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 56], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 56]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 50], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 50]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 44], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 44]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 38], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 38]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 32], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 32]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 26], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 26]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 20], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 20]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 14], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 14]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 8], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 8]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 2], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 2]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered collection of microposts/_micropost.html.erb [30 times] (Duration: 210.6ms | Allocations: 104360)
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:8
+  Rendered shared/_feed.html.erb (Duration: 219.4ms | Allocations: 106952)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 219.6ms | Allocations: 107031)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 903)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 246ms (Views: 234.0ms | ActiveRecord: 8.8ms | Allocations: 135114)
+
+
+Started DELETE "/bookmarks/2" for ::1 at 2020-08-23 22:49:28 +0900
+Processing by BookmarksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"srbmDSHkbcai0rtTXyO7X1deUEv8yIt18Lhu7Pjp4azG1opyHP/uKGbfZg3sO37pekEc9A9K8p9UQlIPpP2TFg==", "commit"=>"お気に入りから外す", "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  [1m[36mBookmark Load (0.1ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks" WHERE "bookmarks"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:12:in `destroy'
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookmarks_controller.rb:13:in `destroy'
+  [1m[36mBookmark Destroy (0.8ms)[0m  [1m[31mDELETE FROM "bookmarks" WHERE "bookmarks"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/bookmarks_controller.rb:13:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookmarks_controller.rb:13:in `destroy'
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.1ms | Allocations: 3602)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:49:28 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:1
+  [1m[36mMicropost Load (0.3ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101) ORDER BY "microposts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  ↳ app/views/shared/_feed.html.erb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 176], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 176]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 170], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 170]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 164], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 164]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 158], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 158]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 152], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 152]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 146], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 146]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 140], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 140]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 134], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 134]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 128], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 128]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 122], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 122]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 116], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 116]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 110], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 110]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 104], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 104]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 98], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 98]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 92], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 92]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 86], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 86]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 80], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 80]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 74], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 74]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 68], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 68]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 62], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 62]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 56], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 56]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 50], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 50]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 44], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 44]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 38], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 38]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 32], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 32]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 26], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 26]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 20], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 20]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 14], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 14]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 8], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 8]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 2], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 2]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered collection of microposts/_micropost.html.erb [30 times] (Duration: 250.3ms | Allocations: 113891)
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:8
+  Rendered shared/_feed.html.erb (Duration: 258.3ms | Allocations: 116484)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 258.5ms | Allocations: 116561)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 896)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 282ms (Views: 270.7ms | ActiveRecord: 8.6ms | Allocations: 144648)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:49:30 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:1
+  [1m[36mMicropost Load (0.4ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101) ORDER BY "microposts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  ↳ app/views/shared/_feed.html.erb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 176], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 176]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 170], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 170]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 164], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 164]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 158], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 158]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 152], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 152]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 146], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 146]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 140], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 140]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 134], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 134]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 128], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 128]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 122], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 122]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 116], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 116]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 110], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 110]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 104], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 104]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 98], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 98]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 92], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 92]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 86], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 86]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 80], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 80]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 74], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 74]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 68], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 68]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 62], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 62]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 56], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 56]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 50], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 50]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 44], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 44]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 38], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 38]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 32], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 32]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 26], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 26]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 20], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 20]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 14], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 14]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 8], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 8]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 2], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 2]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered collection of microposts/_micropost.html.erb [30 times] (Duration: 177.9ms | Allocations: 103625)
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:8
+  Rendered shared/_feed.html.erb (Duration: 180.9ms | Allocations: 106217)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 181.1ms | Allocations: 106294)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 896)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 202ms (Views: 192.1ms | ActiveRecord: 8.4ms | Allocations: 134368)
+
+
+Started GET "/microposts/new" for ::1 at 2020-08-23 22:49:31 +0900
+Processing by MicropostsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 101]]
+  ↳ app/views/shared/_user_info.html.erb:3
+  Rendered shared/_user_info.html.erb (Duration: 1.9ms | Allocations: 1051)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:6
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:13
+  Rendered shared/_stats.html.erb (Duration: 9.4ms | Allocations: 2091)
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_micropost_form.html.erb (Duration: 3.2ms | Allocations: 816)
+  Rendered microposts/new.html.erb within layouts/application (Duration: 16.2ms | Allocations: 4624)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 908)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 73ms (Views: 69.8ms | ActiveRecord: 0.7ms | Allocations: 33371)
+
+
+Started GET "/users" for ::1 at 2020-08-23 22:49:32 +0900
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:4
+  Rendered collection of users/_user.html.erb [30 times] (Duration: 3.5ms | Allocations: 2629)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/views/users/index.html.erb:7
+  Rendered users/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 7164)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 905)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.6ms | Allocations: 35042)
+
+
+Started GET "/notifications" for ::1 at 2020-08-23 22:49:33 +0900
+Processing by NotificationsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  [1m[36mNotification Load (0.2ms)[0m  [1m[34mSELECT "notifications".* FROM "notifications" WHERE "notifications"."visited_id" = ? AND "notifications"."checked" = ? ORDER BY "notifications"."created_at" DESC[0m  [["visited_id", 101], ["checked", 0]]
+  ↳ app/controllers/notifications_controller.rb:6:in `index'
+  Rendering notifications/index.html.erb within layouts/application
+  [1m[36mNotification Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "notifications" WHERE "notifications"."visited_id" = ? LIMIT ?[0m  [["visited_id", 101], ["LIMIT", 1]]
+  ↳ app/views/notifications/index.html.erb:6
+  Rendered notifications/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1070)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 907)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 34ms (Views: 27.2ms | ActiveRecord: 0.8ms | Allocations: 32502)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:49:35 +0900
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:1
+  [1m[36mMicropost Load (0.5ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101) ORDER BY "microposts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  ↳ app/views/shared/_feed.html.erb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 176], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 176]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 170], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 170]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 164], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 164]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 158], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 158]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 152], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 152]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 146], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 146]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 140], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 140]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 134], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 134]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 128], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 128]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 122], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 122]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 116], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 116]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 110], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 110]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 104], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 104]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 98], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 98]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 92], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 92]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 86], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 86]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 80], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 80]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 74], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 74]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 68], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 68]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 62], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 62]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 56], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 56]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 50], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 50]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 44], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 44]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 38], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 38]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 32], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 32]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 26], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 26]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 20], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 20]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 14], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 14]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 8], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 8]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/microposts/_micropost.html.erb:4
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" INNER JOIN "bookmarks" ON "microposts"."id" = "bookmarks"."micropost_id" WHERE "bookmarks"."user_id" = ? AND "microposts"."id" = ? LIMIT ?[0m  [["user_id", 101], ["id", 2], ["LIMIT", 1]]
+  ↳ app/models/user.rb:97:in `bookmarked_microposts?'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."micropost_id" = ?[0m  [["micropost_id", 2]]
+  ↳ app/views/microposts/_micropost.html.erb:32
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered collection of microposts/_micropost.html.erb [30 times] (Duration: 168.5ms | Allocations: 103635)
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+              WHERE follower_id = 101)
+              OR user_id = 101)[0m
+  ↳ app/views/shared/_feed.html.erb:8
+  Rendered shared/_feed.html.erb (Duration: 172.0ms | Allocations: 106227)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 172.2ms | Allocations: 106306)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 903)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 193ms (Views: 182.5ms | ActiveRecord: 8.3ms | Allocations: 134392)
+
+
+Started GET "/users/101" for ::1 at 2020-08-23 22:49:42 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32:in `show'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:6
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 101]]
+  ↳ app/views/shared/_stats.html.erb:13
+  Rendered shared/_stats.html.erb (Duration: 2.7ms | Allocations: 2101)
+  Rendered users/_follow_form.html.erb (Duration: 0.0ms | Allocations: 9)
+  [1m[36mMicropost Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? LIMIT ?[0m  [["user_id", 101], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:24
+  Rendered users/show.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3073)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 906)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 31ms (Views: 26.5ms | ActiveRecord: 0.7ms | Allocations: 31885)
+
+
+Started DELETE "/logout" for ::1 at 2020-08-23 22:49:49 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JXfRt+kf3//BYcs3QZrPP/Td7/pdaHw1s3nmTIymyt3Np10rDzzKvSX24pKvpNuVWMgU+kb5oTJ97TN9nC3A/g=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:18:in `current_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:64:in `forget'
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", nil], ["updated_at", "2020-08-23 13:49:49.188353"], ["id", 101]]
+  ↳ app/models/user.rb:64:in `forget'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:64:in `forget'
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms | Allocations: 3378)
+
+
+Started GET "/" for ::1 at 2020-08-23 22:49:49 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2090)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 148)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 28231)
+
+
