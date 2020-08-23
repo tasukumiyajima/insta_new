@@ -9,6 +9,7 @@ before_action :admin_user, only: :destroy
       result = @user.save(context: :facebook_login)
       if result
         log_in @user
+        remember(@user)
         redirect_to @user
         flash[:success] = 'ログインしました'
       else
