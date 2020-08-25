@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 
 /* mixins, variables, etc. */
 
@@ -69,16 +70,22 @@ p {
 .navbar {
   background-color: white;
   border-bottom: 1px solid $gray-medium-light;
+  vertical-align: middle;
+}
+
+.navbar-left {
+ float:left;
 }
 
 #logo {
   float: left;
-  margin-right: 20px;
+  margin-right: 50px;
   padding-top: 13px;
   &:hover {
     text-decoration: none;
   }
 }
+
 
 /* footer */
 
@@ -118,6 +125,8 @@ footer {
     }
     .sub-text {
       color: $gray-light;
+      display: inline-block;
+      padding-top: 20px;
     }
   }
   .box-2 {
@@ -128,6 +137,54 @@ footer {
     p {
       font-size: small;
     }
+  }
+}
+
+//  home・signupのborder  
+.title-border {
+  display: flex;
+  align-items: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.title-border:before, .title-border:after {
+  border-top: 1px solid $gray-medium-light;
+  content: "";
+  flex-grow: 1;
+}
+.title-border:before {
+  margin-right: 2rem;
+}
+.title-border:after {
+  margin-left: 2rem;
+}
+
+.facebook-login {
+  a {
+    color: #3b5998;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    display: inline-block;
+    .fa-facebook-square {
+    margin-right: 10px;
+    }
+  }
+}
+
+.btn-facebook {
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 4px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .fa-facebook-square {
+    margin-right: 10px;
   }
 }
 
