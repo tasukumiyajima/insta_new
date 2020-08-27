@@ -21,7 +21,7 @@ class User < ApplicationRecord
   has_secure_password validations: false
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true, on: :facebook_login
 
-  has_many :comments
+  has_many :comments, dependent: :destroy
   has_many :bookmarks, dependent: :destroy
   has_many :bookmarked_microposts, through: :bookmarks, source: :micropost
 

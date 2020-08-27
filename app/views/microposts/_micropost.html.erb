@@ -13,10 +13,8 @@
   </span>
   <div class="content">
     <div class="micropost-content">
-      <%= micropost.content %><br>
-      <% if micropost.comments.any? %>
-        <%= link_to "コメントを見る", micropost_path(micropost) %>
-      <% end %>
+      <div><%= micropost.content unless micropost.content.nil? %><div>
+      <div><%= link_to "コメントを見る", micropost_path(micropost) if micropost.comments.any? %></div>
     </div>
     <span class="timestamp">
       <%= time_ago_in_words(micropost.created_at) %>前に投稿<br>

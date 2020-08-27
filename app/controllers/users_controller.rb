@@ -36,6 +36,13 @@ before_action :admin_user_or_correct_user, only: :destroy
     @comment = current_user.comments.build if logged_in?
   end
 
+  # ユーザーのお気に入りベージ
+  def bookmark_show
+    @user = current_user
+    @microposts = current_user.microposts.paginate(page: params[:page])
+    @comment = current_user.comments.build if logged_in?
+  end
+
   # ユーザー登録
   def new
     @user = User.new

@@ -31,6 +31,9 @@
           <li>
             <%= link_to notifications_path do %>
               <span class= "fa fa-heart-o fa-lg"></span>
+              <% if unchecked_notifications.any? %> 
+                <span class="fa fa-circle"></span>
+              <% end %> 
             <%end%>
           </li>
           <li class="dropdown">
@@ -39,7 +42,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><%= link_to "プロフィール", current_user %></li>
-              <li><%= link_to "保存済み", "#" %></li>
+              <li><%= link_to "保存済み", bookmark_show_path(current_user) %></li>
               <li><%= link_to "設定", edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li>

@@ -27,10 +27,9 @@ class Micropost < ApplicationRecord
         micropost_id: id,
         action: "bookmark"
         )
-      if notification.visitor_id == notification.visited_id
-         notification.checked = true
+      if notification.visitor_id != notification.visited_id && notification.valid?
+        notification.save
       end
-      notification.save if notification.valid?
     end
   end
 
@@ -46,10 +45,9 @@ class Micropost < ApplicationRecord
         comment_id: comment.id,
         action: 'comment'
       )
-      if notification.visitor_id == notification.visited_id
-        notification.checked = true
+      if notification.visitor_id != notification.visited_id && notification.valid?
+        notification.save    
       end
-      notification.save if notification.valid?
     end
   end
 

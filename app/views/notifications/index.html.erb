@@ -1,13 +1,17 @@
 <% provide(:title, '通知') %>
+<div class="row">
+  <div class="col-xs-12 main-content">
+    <div class="notification-contents">
+      <% if @notifications.any? %>
+        <%= link_to notification_path(@notifications), {method: :delete} do %>
+          <div class="delete-tag"><span class= "fa fa-trash-o fa-lg"></span>通知を全て削除する</div>
+        <% end %>
 
-<h3 class="text-center">通知</h3>
-<%= link_to "通知削除", notification_path(@notifications), method: :delete, class: "fas fa-trash" %>
+        <%= render @notifications %>
 
-<% if @notifications.any? %>
-  <div class="notification-index">
-    <%= render @notifications %>
+      <% else %>
+        <p>あなたがフォローされたり、あなたの投稿にコメントやお気に入りがあった場合にここに通知されます</p>
+      <% end %>
+    </div>
   </div>
-<% else %>
-  <p>通知はありません</p>
-<% end %>
-
+</div>

@@ -1,47 +1,22 @@
 <% provide(:title, @user.name) %>
 <div class="row">
-  <div class="col-12">
-    <div class="user-profile">
-      <%= gravatar_for @user %>
-      <div class="user-profile-content">
-        <div class="user-title">
-          <div class= "user-name">
-            <%= @user.user_name if @user.user_name %>
-          </div>
-          <div class="user-title-right">
-            <% if current_user?(@user) %>
-              <%= link_to "プロフィールを編集する", edit_user_path(@user), 
-                    class: "btn btn-outline-secondary profile-link" %> <%# 自分のページの時の表示 %>
-            <% else %>
-              <%= render 'follow_form' if logged_in? %>   <%# 自分以外のユーザーの時に表示 %>
-            <% end %>
-          </div>
-        </div>
-        <div class="user-info">
-          <div class="post-number">投稿 <%= @user.microposts.count %>件</div>
-          <section class="stats">
-            <%= render 'shared/stats' %>
-          </section>
-        </div>
-        <div class="user-basic-info">
-          <%= @user.name %><br>
-          <%= link_to @user.website, @user.website, target: "_blank" %><br>
-          <%= @user.introduction %>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row">
+  <div class="col-xs-12 main-content">
+    <%= render "users/user_profile"%>
     <% if @user.microposts.any? %>
-
-      <%# micropostのリストを推測して表示する %>
-      <ol class="microposts">
-        <%= render @microposts %>
-      </ol>
-
-      <%= will_paginate @microposts %>
-
+      <div class="micropost-title">投稿済みの写真</div>
+    <% else %>
+      <div class="micropost-title">投稿している写真はまだありません</div>
     <% end %>
+    <hr>
+    <% if @user.microposts.any? %>
+      <div class="microposts-list">
+        <% @user.microposts.each do |micropost| %>
+          <div class="micropost-picture">
+            <%= image_tag micropost.picture.url%>
+          </div>
+        <% end %>
+      </div>
+      <%= will_paginate @microposts %>
+    <% end %>
+  </div>
 </div>

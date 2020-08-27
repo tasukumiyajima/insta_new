@@ -1,7 +1,7 @@
 class PictureUploader < CarrierWave::Uploader::Base
   include CarrierWave::MiniMagick
 
-  process resize_to_fill: [612, 612, "Center"]
+  process resize_and_pad: [612, 612, "white"]
 
   storage :file
 

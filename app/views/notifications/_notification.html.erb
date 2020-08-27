@@ -1,8 +1,14 @@
 <div class="notification-view">
+
+  <%= link_to gravatar_for(notification.visitor, size: 20), notification.visitor %>
+
   <%# notificationの内容を表示(helperで定義) %>
   <%= notification_form(notification) %>
   <%= "(#{time_ago_in_words(notification.created_at)}前)" %>
-  <br>
-  <%# <%= notificated_comment_form(notification) %>
+
+  <% unless notification.comment.nil? %>
+    <p class="moderate-font"><%= notification.comment.content %></p>
+  <% end %>
+
 </div>
 

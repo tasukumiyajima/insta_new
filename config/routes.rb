@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/signup', to: 'users#new'
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
+  get '/bookmark_show', to: 'users#bookmark_show'
   get '/password', to: 'users#password_change'
   post '/password', to: 'users#password_update'
   
