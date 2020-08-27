@@ -6,9 +6,10 @@ before_action :correct_user,   only: :destroy
     @micropost  = current_user.microposts.build
   end
 
-  # def show
-  #   @micropost = Micropost.find(params[:id])
-  # end
+  def show
+    @micropost = Micropost.find(params[:id])
+    @comment = current_user.comments.build if logged_in?
+  end
 
   def create
     @micropost = current_user.microposts.build(micropost_params)

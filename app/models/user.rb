@@ -10,6 +10,7 @@ class User < ApplicationRecord
   has_many :followers, through: :passive_relationships, source: :follower
 
   attr_accessor :remember_token, :reset_token
+
   before_save :downcase_email, unless: :uid?
   validates :name, presence: true, length: { maximum: 50 }
   validates :user_name, presence: true, length: { maximum: 50 }
@@ -57,6 +58,14 @@ class User < ApplicationRecord
     digest = send("#{attribute}_digest")
     return false if digest.nil?
     BCrypt::Password.new(digest).is_password?(token)
+  end
+
+  # def update_new_password(new_password)
+  #   update_attribute(:password_digest, User.digest(new_password))
+  # end
+
+  def authenticated_password?(password)
+    BCrypt::Password.new(remember_digest).is_password?(password)
   end
 
   # データベースのremember_digestを破棄する

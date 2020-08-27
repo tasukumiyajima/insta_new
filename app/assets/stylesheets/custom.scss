@@ -70,22 +70,38 @@ p {
 .navbar {
   background-color: white;
   border-bottom: 1px solid $gray-medium-light;
-  vertical-align: middle;
 }
 
-.navbar-left {
- float:left;
+.search-form {
+  display: flex;
+  margin-top: 8px;
+  .form-control {
+    margin-bottom: 0px;
+  }
+  .form-btn {
+    margin-bottom: 0px;
+    width: auto;
+    border-radius: 4px;
+  }
+}
+
+.navbar-right {
+  display: flex;
+  float:right;
+  .fa, .caret {
+    color: black;
+  }
 }
 
 #logo {
   float: left;
   margin-right: 50px;
+  margin-left: 20px;
   padding-top: 13px;
   &:hover {
     text-decoration: none;
   }
 }
-
 
 /* footer */
 
@@ -120,7 +136,7 @@ footer {
       color: $gray-light;
       padding-bottom:20px;
     }
-    button {
+    button, .btn {
       width: 100%;
     }
     .sub-text {
@@ -140,7 +156,6 @@ footer {
   }
 }
 
-//  home・signupのborder  
 .title-border {
   display: flex;
   align-items: center;
@@ -239,22 +254,89 @@ aside {
   }
 }
 
+// ユーザー個別ページ
+.user-profile {
+  padding: 20px;
+  .user-profile-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    .user-title {
+      display: flex;
+      vertical-align: middle;
+      .user-title-right {
+        margin-left: 30px;
+        .profile-link {
+          border: 1px solid #e8e8e8;
+          color: black;
+          margin-top: 5px;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .user-info {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      .post-number {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+//  設定・パスワード変更
+
 .gravatar {
   float: left;
   margin-right: 10px;
 }
 
-.gravatar_edit {
+.profile_edit {
   margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  display: block;
+  height: 85px;
 }
 
-.gravatar {
-  float: left;
-  margin-right: 10px;
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
 
-.gravatar_edit {
-  margin-top: 15px;
+.user-name {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.profile-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .profile-name {
+    width: 300px;
+    text-align: right;
+    padding-right: 50px;
+  }
+}
+
+.profile-btn {
+  padding-bottom: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .password-link {
+    padding-left: 20px;
+    font-weight: bold;
+  }
 }
 
 .stats {
@@ -299,7 +381,6 @@ aside {
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
-  width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
 }
@@ -354,31 +435,77 @@ input {
 .microposts {
   list-style: none;
   padding: 0;
+  .title-bar {
+    border: 1px solid #e8e8e8;
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      .bookmark-form {
+        margin: 0 35px 0 auto;
+      }
+    }
+    .gravatar {
+      float: left;
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+    .button-tag {
+      padding-top: 5px;
+      background-color: transparent;
+      border: none;
+      &:focus {
+          outline: 0;
+      }
+    }
+  }
   li {
     padding: 10px 0;
-    border-bottom: 1px solid #e8e8e8;
   }
   .user {
     margin-top: 5em;
     padding-top: 0;
   }
-  .content {
+  .picture {
     display: block;
-    margin-left: 60px;
+    padding-left: 60px;
+    border-right: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
     img {
       display: block;
       padding: 5px 0;
     }
   }
-  .timestamp {
-    color: $gray-light;
-    display: block;
-    margin-left: 60px;
-  }
-  .gravatar {
-    float: left;
-    margin-right: 10px;
-    margin-top: 5px;
+  .content {
+    border: 1px solid #e8e8e8;
+    padding: 10px 60px 10px 60px;
+    .comments {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0px;
+      .comment {
+        margin: 5px 0;
+      }
+      .comment-delete {
+        font-size: 12px;
+        padding-left: 10px;
+      }
+    }
+    .timestamp {
+      color: $gray-light;
+      display: block;
+      font-size: 12px;
+    }
+    .comment-post {
+      padding-top: 10px;
+      .comment-form {
+        display: flex;
+      }
+      .form-control, .form-btn {
+        margin-bottom: 0px;
+      }
+    }
   }
 }
 

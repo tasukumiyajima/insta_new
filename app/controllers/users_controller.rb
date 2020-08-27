@@ -2,7 +2,7 @@ class UsersController < ApplicationController
 before_action :logged_in_user, only: [:index, :edit, :update, :destroy, 
                                       :following, :followers]
 before_action :correct_user,   only: [:edit, :update]
-before_action :admin_user, only: :destroy
+before_action :admin_user_or_correct_user, only: :destroy
 
   def facebook_login
     @user = User.from_omniauth(request.env["omniauth.auth"])
@@ -24,17 +24,19 @@ before_action :admin_user, only: :destroy
     redirect_to root_url
   end
 
+  # ユーザー一覧ページ
   def index
     @users = User.paginate(page: params[:page])
   end
 
+  # ユーザーの個別ベージ
   def show
     @user=User.find(params[:id])
-    # @micropost = Micropost.find(params[:id])
     @microposts = @user.microposts.paginate(page: params[:page])
     @comment = current_user.comments.build if logged_in?
   end
 
+  # ユーザー登録
   def new
     @user = User.new
   end
@@ -51,10 +53,8 @@ before_action :admin_user, only: :destroy
     end
   end
 
+  # プロフィール編集
   def edit
-  end
-
-  def password_change
   end
 
   def update 
@@ -66,19 +66,35 @@ before_action :admin_user, only: :destroy
     end
   end
 
-  # def password_update
-  #   if @user.update(user_password_params)
-  #     flash[:success] = "パスワードを変更しました。"
-  #     redirect_to @user
-  #   else
-  #     render 'password_change'
-  #   end
-  # end
+  # パスワード更新　
+  def password_change
+    @user=User.find(params[:format])
+  end
+
+  def password_update
+    current_password = params[:user][:password]
+    if @user.authenticate(current_password)
+      new_password = params[:user][:new_password]
+      new_password_confirmation = params[:user][:new_password_confirmation]
+      if new_password == new_password_confirmation
+        @user.update_attribute(:password, new_password)
+        flash[:success] = "パスワードを変更しました"
+        redirect_to @user
+      else
+        flash[:danger] = '新しいパスワードを入力してください'
+        render 'password_change'
+      end  
+    else
+      flash[:danger] = '現在のパスワードが間違っています'
+      render 'password_change'
+    end
+
+  end
 
   def destroy
     User.find(params[:id]).destroy
     flash[:success] = "ユーザーを消去しました。"
-    redirect_to users_url
+    redirect_to root_url
   end
 
   def following
@@ -98,13 +114,9 @@ before_action :admin_user, only: :destroy
   private
 
     def user_params
-      params.require(:user).permit(:password, :email, :name, :user_name, :website, :introduction, :phone_number, :sex)
+      params.require(:user).permit(:password, :email, :name, :user_name, 
+                            :website, :introduction, :phone_number, :sex)
     end
-
-    # def user_password_params
-    #   params.require(:user).permit(:password)
-    # end
-
 
     # beforeアクション
 
@@ -115,8 +127,11 @@ before_action :admin_user, only: :destroy
     end
 
     # 管理者かどうか確認
-    def admin_user
-      redirect_to(root_url) unless current_user.admin?
+    def admin_user_or_correct_user
+      @user = User.find(params[:id])
+      unless current_user?(@user) || current_user.admin?
+      redirect_to(root_url)
+      end
     end
 
 end

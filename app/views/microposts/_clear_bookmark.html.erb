@@ -1,0 +1,8 @@
+<%# ajaxがうまく機能しないのでlocalで実装 %>
+<%= form_with(model: current_user.bookmarks.find_by(micropost_id: micropost.id),
+                                        html: { method: :delete }, local: true) do |f| %>
+  <div><%= hidden_field_tag :micropost_id, micropost.id %></div>
+  <%= button_tag(class: "button-tag") do %>
+    <span class="fa fa-bookmark fa-2x"></span>
+  <% end %>
+<% end %> 

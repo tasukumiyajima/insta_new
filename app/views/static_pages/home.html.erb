@@ -1,16 +1,13 @@
 <% if logged_in? %>
   <div class="row">
     <div class="col-md-8">
-
       <%= render 'shared/feed' %>
-
     </div>
   </div>
 <% else %>
 
-<div class="row center">    
+<div class="row center">
     <div class="main-form col-6 col-xs-offset-3">
-
       <div class="box-1">
         <%= link_to image_tag("instagram.png", alt: "logo", width: "200px", class: "image_tag"), root_path %>
 
@@ -33,10 +30,9 @@
         <p class="align-items-center">アカウントをお持ちでないですか？ <%= link_to "登録する", signup_path %></p>
       </div>
 
-        <p>ダウンロード</p>
-        <%= link_to image_tag("appstore.png", alt: "logo", width: "150px"), "#" %>
-        <%= link_to image_tag("googleplay.png", alt: "logo", width: "150px"), "#" %>
-
+      <p>ダウンロード</p>
+      <%= link_to image_tag("appstore.png", alt: "logo", width: "150px"), "#" %>
+      <%= link_to image_tag("googleplay.png", alt: "logo", width: "150px"), "#" %>
     </div>
   </div>
 <%end%>

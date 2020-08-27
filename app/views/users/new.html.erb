@@ -16,13 +16,9 @@
 
       <%= form_with(model: @user, local: true) do |f| %>
         <%= render 'shared/error_messages', object: f.object %>
-
         <%= f.email_field :email, class: 'form-control', placeholder: "メールアドレス" %>
-
         <%= f.text_field :name, class: 'form-control', placeholder: "フルネーム" %>
-
         <%= f.text_field :user_name, class: 'form-control', placeholder: "ユーザーネーム" %>
-
         <%= f.password_field :password, class: 'form-control', placeholder: "パスワード" %>
 
         <%# <%= f.label :"パスワード(再入力)" %>

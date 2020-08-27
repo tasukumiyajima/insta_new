@@ -1,28 +1,40 @@
 <% provide(:title, @user.name) %>
 <div class="row">
-  <aside class="col-md-4">
-    <section class="user_info">
-      <h1>
-        <%= gravatar_for @user %>
-        <%= @user.user_name %>
-      </h1>
-      <small>
-        名前：<%= @user.name %><br>
-        ウェブサイト：<%= @user.website %><br>
-        自己紹介：<%= @user.introduction %>
-      </small>
-    </section>
-    <section class="stats">
-      <%= render 'shared/stats' %>
-    </section>
-  </aside>
+  <div class="col-12">
+    <div class="user-profile">
+      <%= gravatar_for @user %>
+      <div class="user-profile-content">
+        <div class="user-title">
+          <div class= "user-name">
+            <%= @user.user_name if @user.user_name %>
+          </div>
+          <div class="user-title-right">
+            <% if current_user?(@user) %>
+              <%= link_to "プロフィールを編集する", edit_user_path(@user), 
+                    class: "btn btn-outline-secondary profile-link" %> <%# 自分のページの時の表示 %>
+            <% else %>
+              <%= render 'follow_form' if logged_in? %>   <%# 自分以外のユーザーの時に表示 %>
+            <% end %>
+          </div>
+        </div>
+        <div class="user-info">
+          <div class="post-number">投稿 <%= @user.microposts.count %>件</div>
+          <section class="stats">
+            <%= render 'shared/stats' %>
+          </section>
+        </div>
+        <div class="user-basic-info">
+          <%= @user.name %><br>
+          <%= link_to @user.website, @user.website, target: "_blank" %><br>
+          <%= @user.introduction %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <div class="col-md-8">
-    <%# フォロー・フォロー中のボタン %>
-    <%= render 'follow_form' if logged_in? %>  
-
+<div class="row">
     <% if @user.microposts.any? %>
-      <h3>投稿 (<%= @user.microposts.count %>)</h3>
 
       <%# micropostのリストを推測して表示する %>
       <ol class="microposts">
@@ -32,7 +44,4 @@
       <%= will_paginate @microposts %>
 
     <% end %>
-
-  </div>
-
 </div>
