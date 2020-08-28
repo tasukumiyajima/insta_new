@@ -13,8 +13,7 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     patch user_path(@user), params: { user: { name:  "",
                                               user_name: "",
                                               email: "foo@invalid",
-                                              password:              "foo",
-                                              password_confirmation: "bar" } }
+                                              password:              "foo"} }
 
     assert_template 'users/edit'
     assert_select 'div.alert', "エラーが4つあります。"
