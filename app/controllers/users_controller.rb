@@ -6,16 +6,16 @@ before_action :admin_user_or_correct_user, only: :destroy
 
   def facebook_login
     @user = User.from_omniauth(request.env["omniauth.auth"])
-      result = @user.save(context: :facebook_login)
-      if result
-        log_in @user
-        remember(@user)
-        redirect_to @user
-        flash[:success] = 'ログインしました'
-      else
-        redirect_to auth_failure_path
-        flash[:danger] = 'ログインできません'
-      end
+    result = @user.save(context: :facebook_login)
+    if result
+      log_in @user
+      remember(@user)
+      redirect_to @user
+      flash[:success] = 'ログインしました'
+    else
+      redirect_to auth_failure_path
+      flash[:danger] = 'ログインできません'
+    end
   end
 
   #認証に失敗した際の処理

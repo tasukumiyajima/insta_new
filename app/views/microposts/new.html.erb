@@ -1,6 +1,6 @@
 <% provide(:title, '投稿') %>
 <div class="row">
-  <aside class="col-md-4">
+  <div class="col-md-4">
     <div class="user-profile">
       <%= gravatar_for current_user %>
       <div class="user-profile-content">
@@ -17,5 +17,5 @@
     <section class="micropost_form">
       <%= render 'shared/micropost_form' %>
     </section>
-  </aside>
+  </div>
 </div>

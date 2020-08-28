@@ -5,15 +5,15 @@
     <div class="box-password">
       <h4>ログインできない場合</h4>
       <small class="sub-text">アカウントにアクセスするためのログインリンクを送信するため、ユーザーネームまたはメールアドレスを入力してください。</small>
-      <%= form_with(url: password_resets_path, scope: :password_reset, local: true) do |f| %>
-        <%= f.label :"メールアドレス" %>
-        <%= f.email_field :email, class: 'form-control' %>
-
-        <%= f.submit "ログインリンクを送信", class: "btn btn-primary" %>
-      <% end %>
-
-        <p>または</p>
-        <%= link_to "新しいアカウントを作成", signup_path %></p>    
+      <div class="reset-form">
+        <%= form_with(url: password_resets_path, scope: :password_reset, local: true) do |f| %>
+          <%= f.label :"メールアドレス" %>
+          <%= f.email_field :email, class: 'form-control' %>
+          <%= f.submit "ログインリンクを送信", class: "btn btn-primary" %>
+        <% end %>
+      </div>
+      <p>または</p>
+      <%= link_to "新しいアカウントを作成", signup_path %></p>    
     </div>
     <%= link_to "ログインに戻る", root_path, class: "btn btn-default login-btn" %></p>
   </div>

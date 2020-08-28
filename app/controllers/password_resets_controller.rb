@@ -1,7 +1,7 @@
 class PasswordResetsController < ApplicationController
-  before_action :get_user,   only: [:edit, :update]
-  before_action :valid_user, only: [:edit, :update]
-  before_action :check_expiration, only: [:edit, :update] # パスワードの期限が切れていないか確認する
+  # before_action :get_user,   only: [:edit, :update]
+  # before_action :valid_user, only: [:edit, :update]
+  # before_action :check_expiration, only: [:edit, :update] # パスワードの期限が切れていないか確認する
 
   def new
   end
@@ -9,8 +9,8 @@ class PasswordResetsController < ApplicationController
   def create
     @user = User.find_by(email: params[:password_reset][:email].downcase)
     if @user
-      @user.create_reset_digest
-      @user.send_password_reset_email
+      @user.create_reset_digest # データベースにreset_digestを保存する
+      @user.send_password_reset_email #パスワードリセットのメールをユーザーに送信する
       flash[:info] = "パスワードリセットのためのemailを送付しました。"
       redirect_to root_url
     else

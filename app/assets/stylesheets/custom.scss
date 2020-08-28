@@ -104,7 +104,7 @@ p {
   float: left;
   margin-right: 50px;
   margin-left: 20px;
-  padding-top: 13px;
+  padding-top: 15px;
   &:hover {
     text-decoration: none;
   }
@@ -122,13 +122,15 @@ footer {
   small {
     float: right;
     color: $gray-light;
+    padding-right: 20px;
+    padding-top: 3px;
   }
   ul {
     float: left;
     list-style: none;
     li {
       float: left;
-      margin-left: 15px;
+      margin-left: 8px;
     }
   }
 }
@@ -216,6 +218,9 @@ footer {
   padding: 40px;
   .sub-text {
     color: $gray-light;
+  }
+  .reset-form {
+    padding: 20px 0;
   }
 }
 
