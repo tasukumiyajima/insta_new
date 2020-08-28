@@ -12,7 +12,10 @@
       <div class="microposts-list">
         <% @user.bookmarked_microposts.each do |micropost| %>
           <div class="micropost-picture">
-            <%= image_tag micropost.picture.url%>
+            <%= image_tag micropost.picture.url, class: "micropost-img"%>
+            <div id="micropost-modal">
+              <%= render 'users/micropost_modal', micropost: micropost  %>
+            </div>
           </div>
         <% end %>
       </div>
@@ -20,3 +23,16 @@
     <% end %>
   </div>
 </div>
+
+<script>
+  $('.micropost-picture').click(function() {
+    var $displayedMicropost = $(this).find('#micropost-modal');
+    $displayedMicropost.fadeIn();
+    return false;
+  });
+
+  $('.close-modal').click(function() {
+    $(this).parents('#micropost-modal').fadeOut();
+    return false;
+  });
+</script>

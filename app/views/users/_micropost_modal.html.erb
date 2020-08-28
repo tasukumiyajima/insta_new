@@ -1,0 +1,36 @@
+<div class="close-modal">
+  <i class="fa fa-2x fa-times"></i>
+</div>
+
+<div class="modal-content">
+<%# 以下micropost_showをベースにアレンジ %>
+  <div class="microposts">
+    <div class="title-bar">
+      <ul>
+        <li><%= gravatar_for(micropost.user, size: 40) %></li>
+        <li><span class="user"><%= micropost.user.name %></span></li>
+      </ul>
+    </div>
+    <span class="picture">
+      <%= image_tag micropost.picture.url%>
+    </span>
+    <div class="content">
+      <div class="micropost-content">
+        <%= micropost.content %>
+      </div>
+      <div class= "comments">
+        <% micropost.comments.each do |comment| %>
+          <div class="comment">
+            <%= gravatar_for(comment.user, size: 20) %>
+            <%= comment.user.user_name %> 
+            <%= comment.content %>
+          </div>
+        <% end %>
+      </div>
+      <span class="timestamp">
+        <%= time_ago_in_words(micropost.created_at) %>前に投稿<br>
+      </span>
+    </div>
+  </div>
+
+</div>
