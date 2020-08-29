@@ -3,17 +3,7 @@
 
 <div class="row">
   <div class="col-xs-12">
-    <div class="profile_edit">
-      <%= gravatar_for @user %>
-      <ol class="profile-content">
-        <li class="user-name"><%= @user.user_name if @user.user_name %><br></li>
-        <li class="gravater-link"><a href="https://gravatar.com/emails" target="_blank">プロフィール画像を変更する</a></li>
-        <% if current_user == @user %>
-          <li><%= link_to "このアカウントを削除する",@user, method: :delete,
-                                  data: { confirm: "削除してよろしいですか?" }, class: "delete-link" %></li>
-        <% end %>
-      </ol>
-    </div>
+  <%= render 'shared/edit_title' %>
     <%= form_with(model: @user, local: true) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
 
@@ -43,11 +33,13 @@
       </div>
       <div class="profile-box">
         <%= f.label :"性別", class: "profile-name" %>
-        <%= f.select :sex, { "男性": 1, "女性": 2 }, { include_blank: "選択してください" }, { class: 'form-control'} %>
+        <%= f.select :sex, { "男性": 1, "女性": 2 },
+             { include_blank: "選択してください" }, { class: 'form-control'} %>
       </div>
       <div class="profile-btn">
         <%= f.submit yield(:button_text), class: "btn btn-primary" %>
-        <%= link_to "パスワードを変更する", password_path(@user), class:"password-link" %>
+        <%= link_to "パスワードを変更する", edit_password_change_path(@user), 
+                                                    class:"password-link" %>
       </div>
     <% end %>
   </div>

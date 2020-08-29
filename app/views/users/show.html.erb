@@ -1,6 +1,6 @@
 <% provide(:title, @user.name) %>
 <div class="row">
-  <div class="col-xs-12 main-content">
+  <div class="col-xs-10 col-xs-offset-1 col-md-12 main-content">
     <%= render "users/user_profile"%>
     <% if @user.microposts.any? %>
       <div class="micropost-title">投稿済みの写真</div>

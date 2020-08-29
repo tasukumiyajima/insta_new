@@ -18,7 +18,7 @@ before_action :admin_user_or_correct_user, only: :destroy
     end
   end
 
-  #認証に失敗した際の処理
+  # FB認証に失敗した際の処理
   def auth_failure 
     @user = User.new
     redirect_to root_url
@@ -73,31 +73,6 @@ before_action :admin_user_or_correct_user, only: :destroy
     end
   end
 
-  # パスワード更新　
-  def password_change
-    @user=User.find(params[:format])
-  end
-
-  def password_update
-    current_password = params[:user][:password]
-    if @user.authenticate(current_password)
-      new_password = params[:user][:new_password]
-      new_password_confirmation = params[:user][:new_password_confirmation]
-      if new_password == new_password_confirmation
-        @user.update_attribute(:password, new_password)
-        flash[:success] = "パスワードを変更しました"
-        redirect_to @user
-      else
-        flash[:danger] = '新しいパスワードを入力してください'
-        render 'password_change'
-      end  
-    else
-      flash[:danger] = '現在のパスワードが間違っています'
-      render 'password_change'
-    end
-
-  end
-
   def destroy
     User.find(params[:id]).destroy
     flash[:success] = "ユーザーを消去しました。"
@@ -118,14 +93,13 @@ before_action :admin_user_or_correct_user, only: :destroy
     render 'show_follow'
   end
 
+  
   private
 
     def user_params
       params.require(:user).permit(:password, :email, :name, :user_name, 
                             :website, :introduction, :phone_number, :sex)
     end
-
-    # beforeアクション
 
     # 正しいユーザーかどうか確認
     def correct_user

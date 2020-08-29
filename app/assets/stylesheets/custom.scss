@@ -119,17 +119,24 @@ footer {
     color: $gray-blue;
     font-size: 0.9em;
   }
-  small {
-    float: right;
-    color: $gray-light;
-    padding-right: 20px;
+  .end-logo {
+    padding-right: 80px;
+    margin-left: 30px;
     padding-top: 3px;
+    text-align: right;
+    width: auto;
+  }
+  small {
+    color: $gray-light;
   }
   ul {
     float: left;
     list-style: none;
+    margin-left: 0px;
+    padding-left:0px;
+    margin-right: 80px;
     li {
-      float: left;
+      float:left;
       margin-left: 8px;
     }
   }
@@ -340,7 +347,7 @@ aside {
   left: 10%;
   right: 10%;
   background-color: white;
-  padding: 20px 10px;
+  padding: 30px;
   border-radius: 10px;
   width: auto;
   height: auto;

@@ -1,0 +1,31 @@
+<% provide(:title, 'パスワードを更新') %>
+<% provide(:button_text, '更新') %>
+
+<div class="row">
+  <div class="col-xs-12">
+  <%= render 'shared/edit_title' %>
+      <%= form_with(model: @user, url: password_change_path, method: :patch, local: true) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+
+      <div class="profile-box">
+        <%= f.label :"現在のパスワード", class: "profile-name"%>
+        <%= f.password_field :password, class: 'form-control' %>
+      </div>
+
+      <div class="profile-box">
+        <%= f.label :"新しいパスワード", class: "profile-name" %>
+        <%= f.password_field :new_password, class: 'form-control' %>
+      </div>
+      
+      <div class="profile-box">
+        <%= f.label :"新しいパスワード(確認)", class: "profile-name" %>
+        <%= f.password_field :new_password_confirmation, class: 'form-control' %>
+      </div>
+
+      <div class="profile-btn">
+        <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+        <%= link_to "プロフィールを編集する", edit_user_path(@user), class:"password-link" %>
+      </div>
+    <% end %>
+  </div>
+</div>

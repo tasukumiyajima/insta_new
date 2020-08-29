@@ -25,7 +25,7 @@ before_action :correct_user,   only: :destroy
   def destroy
     @micropost.destroy
     flash[:success] = "投稿が削除されました。"
-    redirect_to request.referrer || root_url
+    redirect_to root_url
   end
 
   private

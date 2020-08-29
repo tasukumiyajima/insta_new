@@ -8,8 +8,6 @@ Rails.application.routes.draw do
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
   get '/bookmark_show', to: 'users#bookmark_show'
-  get '/password', to: 'users#password_change'
-  post '/password', to: 'users#password_update'
   
   resources :users do
     member do
@@ -22,6 +20,7 @@ Rails.application.routes.draw do
     resources :comments, only: [:create, :destroy]
   end
   resources :password_resets, only: [:new, :create, :edit, :update]
+  resources :password_changes, only: [:edit, :update]
   resources :relationships, only: [:create, :destroy]
   resources :bookmarks, only: [:create, :destroy]
   resources :notifications, only: [:index, :destroy]

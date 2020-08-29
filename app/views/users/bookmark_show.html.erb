@@ -1,6 +1,6 @@
 <% provide(:title, "お気に入り") %>
 <div class="row">
-  <div class="col-xs-12 main-content">
+  <div class="col-xs-10 col-xs-offset-1 col-md-12 main-content">
     <%= render "users/user_profile"%>
     <% if @user.bookmarked_microposts.any? %>
       <div class="micropost-title">お気に入りの写真</div>

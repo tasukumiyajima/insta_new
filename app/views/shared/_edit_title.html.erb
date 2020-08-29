@@ -1,0 +1,11 @@
+<div class="profile_edit">
+  <%= gravatar_for @user %>
+  <ol class="profile-content">
+    <li class="user-name"><%= @user.user_name if @user.user_name %><br></li>
+    <li class="gravater-link"><a href="https://gravatar.com/emails" target="_blank">プロフィール画像を変更する</a></li>
+    <% if current_user == @user %>
+      <li><%= link_to "このアカウントを削除する",@user, method: :delete,
+                              data: { confirm: "削除してよろしいですか?" }, class: "delete-link" %></li>
+    <% end %>
+  </ol>
+</div>
