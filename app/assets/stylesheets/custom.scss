@@ -414,6 +414,13 @@ aside {
   }
 }
 
+.password-reset-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
 .stats {
   overflow: auto;
   margin-top: 0;

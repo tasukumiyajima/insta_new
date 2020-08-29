@@ -3,8 +3,8 @@
 <div class="row center">
   <div class="main-form col-6 col-xs-offset-3">
     <div class="box-password">
-      <h4>ログインできない場合</h4>
-      <small class="sub-text">アカウントにアクセスするためのログインリンクを送信するため、ユーザーネームまたはメールアドレスを入力してください。</small>
+      <h4>パスワードのリセット</h4>
+      <small class="sub-text">アカウントにアクセスするためのログインリンクを送信するため、メールアドレスを入力してください。</small>
       <div class="reset-form">
         <%= form_with(url: password_resets_path, scope: :password_reset, local: true) do |f| %>
           <%= f.label :"メールアドレス" %>

@@ -6,7 +6,7 @@ before_action :admin_user_or_correct_user, only: :destroy
 
   def facebook_login
     @user = User.from_omniauth(request.env["omniauth.auth"])
-    result = @user.save(context: :facebook_login)
+    result = @user.save
     if result
       log_in @user
       remember(@user)
@@ -20,8 +20,7 @@ before_action :admin_user_or_correct_user, only: :destroy
 
   # FB認証に失敗した際の処理
   def auth_failure 
-    @user = User.new
-    redirect_to root_url
+    redirect_to root_path
   end
 
   # ユーザー一覧ページ
@@ -64,8 +63,8 @@ before_action :admin_user_or_correct_user, only: :destroy
   def edit
   end
 
-  def update 
-    if @user.update(user_params)
+  def update
+    if @user.update(user_profile_params)
       flash[:success] = "プロフィールを更新しました。"
       redirect_to @user
     else
@@ -93,12 +92,16 @@ before_action :admin_user_or_correct_user, only: :destroy
     render 'show_follow'
   end
 
-  
+
   private
 
     def user_params
-      params.require(:user).permit(:password, :email, :name, :user_name, 
-                            :website, :introduction, :phone_number, :sex)
+      params.require(:user).permit(:password, :email, :name, :user_name )
+    end
+
+    def user_profile_params
+      params.require(:user).permit(:email, :name, :user_name, 
+                            :website, :introduction, :phone_number, :sex, :fb_password_set)
     end
 
     # 正しいユーザーかどうか確認

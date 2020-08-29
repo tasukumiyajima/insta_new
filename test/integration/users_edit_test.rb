@@ -12,11 +12,9 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     assert_template 'users/edit'
     patch user_path(@user), params: { user: { name:  "",
                                               user_name: "",
-                                              email: "foo@invalid",
-                                              password:              "foo"} }
-
+                                              email: "foo@invalid"} }
     assert_template 'users/edit'
-    assert_select 'div.alert', "エラーが4つあります。"
+    assert_select 'div.alert', "エラーが3つあります。"
   end
 
   test "successful edit with friendly forwarding" do
@@ -29,9 +27,7 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     email = "foo@bar.com"
     patch user_path(@user), params: { user: { name:  name,
                                               user_name: name,
-                                              email: email,
-                                              password:              "",
-                                              password_confirmation: "" } }
+                                              email: email } }
     assert_not flash.empty?
     assert_redirected_to @user
     @user.reload

@@ -1,6 +1,25 @@
 class User < ApplicationRecord
+  attr_accessor :remember_token, :reset_token
+  before_save :downcase_email
 
+  validates :name, presence: true, length: { maximum: 50 }
+  validates :user_name, presence: true, length: { maximum: 50 }
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  validates :email, presence: true, length: { maximum: 255 },
+                    format: { with: VALID_EMAIL_REGEX },
+                    uniqueness: true
+
+  has_secure_password
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
+
+  validates :phone_number, numericality: { only_integer: true }, allow_blank: true,
+                           length: { in: 9..12, message:"電話番号は数字のみ入力してください" }
+  validates :sex, inclusion: { in: 1..2 }, allow_blank: true
+ 
+  
+  # micropost
   has_many :microposts, dependent: :destroy
+  # follow
   has_many :active_relationships, class_name:  "Relationship",
                                   foreign_key: "follower_id",
                                   dependent:   :destroy
@@ -9,33 +28,18 @@ class User < ApplicationRecord
                                    dependent:   :destroy
   has_many :following, through: :active_relationships, source: :followed
   has_many :followers, through: :passive_relationships, source: :follower
-
-  attr_accessor :remember_token, :reset_token
-
-  before_save :downcase_email, unless: :uid?
-  
-  validates :name, presence: true, length: { maximum: 50 }
-  validates :user_name, presence: true, length: { maximum: 50 }
-  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-  validates :email, presence: true, length: { maximum: 255 },
-                    format: { with: VALID_EMAIL_REGEX },
-                    uniqueness: true
-  has_secure_password validations: false
-  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true, on: :facebook_login
-
+  # comment
   has_many :comments, dependent: :destroy
+  # bookmark
   has_many :bookmarks, dependent: :destroy
   has_many :bookmarked_microposts, through: :bookmarks, source: :micropost
-
+  # notification
   has_many :active_notifications, class_name: "Notification",
                                   foreign_key:"visitor_id",
                                   dependent: :destroy
   has_many :passive_notifications, class_name: "Notification",
                                    foreign_key:"visited_id", 
                                    dependent: :destroy
-  validates :phone_number, numericality: { only_integer: true }, allow_blank: true,
-                           length: { in: 9..12, message:"電話番号は数字のみ入力してください" }
-  validates :sex, inclusion: { in: 1..2 }, allow_blank: true
 
   # 渡された文字列のハッシュ値を返す
   def User.digest(string)
@@ -147,6 +151,7 @@ class User < ApplicationRecord
     user.name  = auth.info.name
     user.user_name = auth.info.name
     user.email = auth.info.email
+    user.password = User.new_token
     user.oauth_token = auth.credentials.token
     user.oauth_expires_at = Time.at(auth.credentials.expires_at)
     user
