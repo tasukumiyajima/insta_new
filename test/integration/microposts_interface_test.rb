@@ -34,4 +34,20 @@ class MicropostsInterfaceTest < ActionDispatch::IntegrationTest
     assert_select 'a', text: '削除', count: 0
   end
 
+  test "micropost sidebar count" do
+    log_in_as(@user)
+    get new_micropost_path
+    assert_match "投稿 #{@user.microposts.count}件", response.body
+    # まだマイクロポストを投稿していないユーザー
+    other_user = users(:malory)
+    log_in_as(other_user)
+    get new_micropost_path
+    assert_match "投稿 0件", response.body
+    # 画像を投稿する
+    picture = fixture_file_upload('test/fixtures/kitten.jpg', 'image/jpg')
+    other_user.microposts.create!(picture: picture)
+    get new_micropost_path
+    assert_match "投稿 1件", response.body
+  end
+
 end
