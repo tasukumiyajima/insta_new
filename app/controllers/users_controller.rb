@@ -1,8 +1,8 @@
 class UsersController < ApplicationController
-before_action :logged_in_user, only: [:edit, :update, :index, :show,
-                                      :destroy, :following, :followers]
-before_action :correct_user, only: [:edit, :update]
-before_action :admin_user_or_correct_user, only: :destroy
+  before_action :logged_in_user, only: [:edit, :update, :index, :show,
+                                        :destroy, :following, :followers]
+  before_action :correct_user, only: [:edit, :update]
+  before_action :admin_user_or_correct_user, only: :destroy
 
   def facebook_login
     @user = User.from_omniauth(request.env["omniauth.auth"])
