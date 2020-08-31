@@ -519,6 +519,7 @@ DEPENDENCIES
   carrierwave (= 1.2.2)
   faker (= 2.1.2)
   fog (= 1.42)
+  fog-aws
   font-awesome-rails
   google-analytics-rails
   guard (= 2.16.2)

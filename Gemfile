@@ -22,6 +22,7 @@ gem 'font-awesome-rails'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'google-analytics-rails'
+gem 'fog-aws'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
