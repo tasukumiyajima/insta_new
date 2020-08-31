@@ -10,7 +10,7 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
   validates :phone_number, numericality: { only_integer: true }, allow_blank: true,
-                           length: { in: 9..12, message:"電話番号は数字のみ入力してください" }
+                                                              length: { in: 9..12 }
   validates :sex, inclusion: { in: 1..2 }, allow_blank: true
 
   # micropost

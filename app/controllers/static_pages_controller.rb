@@ -4,11 +4,13 @@ class StaticPagesController < ApplicationController
   def home
     @feed_items = current_user.feed.paginate(page: params[:page]) if logged_in?
     @comment = current_user.comments.build if logged_in?
+    if @feed_items.blank?
+      @message = "ユーザーをフォローすると、フォローしたユーザーの投稿が表示されます"
+    end
   end
 
   def search
     @comment = current_user.comments.build if logged_in?
-
     if params[:static_page][:search].present?
       microposts = Micropost.search(params[:static_page][:search]).paginate(page: params[:page])
       if microposts.any?

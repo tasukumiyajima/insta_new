@@ -1,6 +1,7 @@
 <% if logged_in? %>
   <div class="row">
     <div class="col-xs-10 col-xs-offset-1 col-md-12 main-content">
+      <h4><%= @message %></h4>
       <%= render 'shared/feed' %>
     </div>
   </div>
