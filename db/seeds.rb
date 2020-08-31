@@ -5,7 +5,7 @@ User.create!(name:  "Admin User",
              password: "passwordpassword",
              website: "https://www.youtube.com/",
              introduction: "管理者やってます。ruby on railsの勉強中です。宜しくお願いします。",
-             phone_number: 9011113939,
+             phone_number: 111222333,
              sex: 1,
              admin: true)
 
@@ -16,7 +16,7 @@ User.create!(name:  "テストユーザー",
              password: "password",
              website: "https://camp.potepan.com/",
              introduction: "テストユーザーやってます。この自己紹介文は書き換えてもらって大丈夫です。",
-             phone_number: 901111355555,
+             phone_number: 111222333,
              sex: 1 )
 
 # 追加のユーザーをまとめて生成する
