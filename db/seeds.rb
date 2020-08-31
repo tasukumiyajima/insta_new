@@ -10,17 +10,27 @@ User.create!(name:  "Admin User",
              admin: true)
 
 # メインのサンプルユーザーを1人作成する
-User.create!(name:  "テストユーザー",
-             user_name: "テスト",
-             email: "example@user.com",
+User.create!(name:  "テストユーザー1",
+             user_name: "テスト1",
+             email: "example-one@user.com",
              password: "password",
              website: "https://camp.potepan.com/",
              introduction: "テストユーザーやってます。この自己紹介文は書き換えてもらって大丈夫です。",
              phone_number: 111222333,
              sex: 1 )
 
+# メインのサンプルユーザーを1人作成する
+User.create!(name:  "テストユーザー2",
+             user_name: "テスト2",
+             email: "example-two@user.com",
+             password: "password",
+             website: "https://camp.potepan.com/",
+             introduction: "テストユーザーやってます。2番目のテストユーザーとして、１番目のテストユーザーの投稿にブックマークとかコメントとかしてみてください。",
+             phone_number: 111222333,
+             sex: 2 )
+
 # 追加のユーザーをまとめて生成する
-60.times do |n|
+50.times do |n|
   name  = Faker::Name.name
   user_name = Faker::Games::Pokemon.name
   email = "example-#{n+1}@railstutorial.org"
@@ -53,7 +63,7 @@ comented_micropost.each { |micropost| user.comments.create!(content: comment, mi
 # サンプルユーザーのフォロワーとフォロー中を作成する
 users = User.all
 user  = users.second
-following = users[2..50]
-followers = users[3..40]
+following = users[3..30]
+followers = users[4..20]
 following.each { |followed| user.follow(followed) }
 followers.each { |follower| follower.follow(user) }
