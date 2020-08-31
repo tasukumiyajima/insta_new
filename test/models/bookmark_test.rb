@@ -3,7 +3,7 @@ require 'test_helper'
 class BookmarkTest < ActiveSupport::TestCase
   def setup
     @bookmark = Bookmark.new(user_id: users(:michael).id,
-                                     micropost_id: microposts(:zone).id)
+                             micropost_id: microposts(:zone).id) #zoneはarcherの投稿
   end
 
   test "should be valid" do

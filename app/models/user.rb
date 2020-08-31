@@ -1,22 +1,18 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :reset_token
   before_save :downcase_email
-
   validates :name, presence: true, length: { maximum: 50 }
   validates :user_name, presence: true, length: { maximum: 50 }
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, length: { maximum: 255 },
                     format: { with: VALID_EMAIL_REGEX },
                     uniqueness: true
-
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
-
   validates :phone_number, numericality: { only_integer: true }, allow_blank: true,
                            length: { in: 9..12, message:"電話番号は数字のみ入力してください" }
   validates :sex, inclusion: { in: 1..2 }, allow_blank: true
- 
-  
+
   # micropost
   has_many :microposts, dependent: :destroy
   # follow
@@ -65,10 +61,6 @@ class User < ApplicationRecord
     return false if digest.nil?
     BCrypt::Password.new(digest).is_password?(token)
   end
-
-  # def update_new_password(new_password)
-  #   update_attribute(:password_digest, User.digest(new_password))
-  # end
 
   def authenticated_password?(password)
     BCrypt::Password.new(remember_digest).is_password?(password)

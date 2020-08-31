@@ -63,3 +63,4 @@ class PasswordResetsController < ApplicationController
     end
 
 end
+

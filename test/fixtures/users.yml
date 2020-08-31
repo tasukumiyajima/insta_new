@@ -23,7 +23,19 @@ malory:
   email: boss@example.gov
   password_digest: <%= User.digest('password') %>
 
-<% 30.times do |n| %>
+taro:
+  name: Taro Suzuki
+  user_name: Taro
+  email: taro@example.gov
+  password_digest: <%= User.digest('password') %>
+
+saki:
+  name: saki Suzuki
+  user_name: saki
+  email: saki@example.gov
+  password_digest: <%= User.digest('password') %>
+
+  <% 30.times do |n| %>
 user_<%= n %>:
   name:  <%= "User #{n}" %>
   user_name:  <%= "User #{n}" %>

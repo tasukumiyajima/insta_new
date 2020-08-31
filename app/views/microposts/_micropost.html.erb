@@ -2,7 +2,7 @@
   <div class="title-bar">
     <ul>
       <li><%= link_to gravatar_for(micropost.user, size: 40), micropost.user %></li>
-      <li><span class="user"><%= link_to micropost.user.name, micropost.user %></span></li>
+      <li><span class="user"><%= link_to micropost.user.user_name, micropost.user %></span></li>
       <li class="bookmark-form">
         <%= render 'microposts/bookmark_form', micropost: micropost %>
       </li>

@@ -8,4 +8,10 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "Instagram"
   end
 
+
+  test "should redirect serach when not logged in" do
+    get search_path
+    assert_redirected_to root_url
+  end
+
 end

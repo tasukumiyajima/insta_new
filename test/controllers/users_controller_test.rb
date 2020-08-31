@@ -80,4 +80,11 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to root_url
   end
 
+  test "should redirect when not logged in" do
+    get users_path
+    assert_redirected_to root_url
+    get user_path(@user)
+    assert_redirected_to root_url
+  end
+
 end

@@ -1,9 +1,11 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  user: one
-  micropost: one
+  user: michael
+  micropost: ants #archerの投稿
 
 two:
-  user: two
-  micropost: two
+  user: archer
+  micropost: zone #archerの投稿
+
+three:
+  user: lana
+  micropost: zone #archerの投稿

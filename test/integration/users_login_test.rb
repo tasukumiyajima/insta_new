@@ -11,10 +11,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     assert_template 'static_pages/home'
     post login_path, params: { session: { email: "", password: "" } }
     assert_redirected_to root_path
-    # assert_template 'static_pages/home'
     assert_not flash.empty?
-    get root_path
-    # assert flash.empty?
   end
 
   test "login with valid email/invalid password" do
@@ -24,10 +21,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
                                           password: "invalid" } }
     assert_not is_logged_in?
     assert_redirected_to root_path
-    # assert_template 'static_pages/home'
     assert_not flash.empty?
-    get root_path
-    # assert flash.empty?
   end
 
   test "login with valid information followed by logout" do

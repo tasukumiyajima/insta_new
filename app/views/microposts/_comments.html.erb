@@ -1,9 +1,9 @@
 <% @micropost.comments.each do |comment| %>
   <div class="comment">
-    <%= link_to gravatar_for(comment.user, size: 20), @micropost.user %>
+    <%= link_to gravatar_for(comment.user, size: 20), comment.user %>
     <%= link_to comment.user.user_name, comment.user %> 
     <%= comment.content %>
-    <% if current_user?(comment.user || @micropost.user) %>
+    <% if current_user?(comment.user) || current_user?(@micropost.user) %>
       <%= link_to "(このコメントを削除)", micropost_comment_path(@micropost.id, comment.id),
                   method: :delete, data: { confirm: "削除してよろしいですか？" }, class: "comment-delete" %>
     <% end %>

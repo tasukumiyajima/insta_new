@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
-before_action :logged_in_user, only: [:index, :edit, :update, :destroy, 
-                                      :following, :followers]
-before_action :correct_user,   only: [:edit, :update]
+before_action :logged_in_user, only: [:edit, :update, :index, :show,
+                                      :destroy, :following, :followers]
+before_action :correct_user, only: [:edit, :update]
 before_action :admin_user_or_correct_user, only: :destroy
 
   def facebook_login
@@ -21,25 +21,6 @@ before_action :admin_user_or_correct_user, only: :destroy
   # FB認証に失敗した際の処理
   def auth_failure 
     redirect_to root_path
-  end
-
-  # ユーザー一覧ページ
-  def index
-    @users = User.paginate(page: params[:page])
-  end
-
-  # ユーザーの個別ベージ
-  def show
-    @user=User.find(params[:id])
-    @microposts = @user.microposts.paginate(page: params[:page])
-    @comment = current_user.comments.build if logged_in?
-  end
-
-  # ユーザーのお気に入りベージ
-  def bookmark_show
-    @user = current_user
-    @microposts = current_user.microposts.paginate(page: params[:page])
-    @comment = current_user.comments.build if logged_in?
   end
 
   # ユーザー登録
@@ -70,6 +51,18 @@ before_action :admin_user_or_correct_user, only: :destroy
     else
       render 'edit'
     end
+  end
+
+  # ユーザー一覧ページ
+  def index
+    @users = User.paginate(page: params[:page])
+  end
+
+  # ユーザーの個別ベージ
+  def show
+    @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(page: params[:page])
+    @comment = current_user.comments.build if logged_in?
   end
 
   def destroy
@@ -114,9 +107,8 @@ before_action :admin_user_or_correct_user, only: :destroy
     def admin_user_or_correct_user
       @user = User.find(params[:id])
       unless current_user?(@user) || current_user.admin?
-      redirect_to(root_url)
+      redirect_to root_url
       end
     end
 
 end
-

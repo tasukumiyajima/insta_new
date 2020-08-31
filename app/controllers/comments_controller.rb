@@ -32,7 +32,8 @@ class CommentsController < ApplicationController
     def correct_user
       @comment = Comment.find(params[:id])
       @micropost = Micropost.find(params[:micropost_id])
-      redirect_to(root_url) unless current_user?(@comment.user || @micropost.user)
+      redirect_to(root_url) unless current_user?(@comment.user) || current_user?(@micropost.user)
     end
 
 end
+

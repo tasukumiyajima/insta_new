@@ -5,7 +5,7 @@ class CommentTest < ActiveSupport::TestCase
   def setup
     @user = users(:michael)
     @micropost = microposts(:ants) #archerの投稿
-    @comment = @user.comments.build(content: "Lorem ipsum", micropost_id: @micropost.id) #michaelがarcherの投稿にコメント
+    @comment = comments(:apple) #archerのzoneという投稿へのコメント
   end
 
   test "should be valid" do 

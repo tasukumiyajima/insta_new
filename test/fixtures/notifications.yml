@@ -1,17 +1,40 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+follow:
+  visitor: michael
+  visited: archer
+  micropost: ""
+  comment: ""
+  action: follow
+  checked: true
 
-one:
-  visitor: one
-  visited: one
-  micropost: one
-  comment: one
-  action: MyString
-  checked: false
+bookmark:
+  visitor: michael
+  visited: archer
+  micropost: hurry
+  comment: ""
+  action: bookmark
+  checked: true
 
-two:
-  visitor: two
-  visited: two
-  micropost: two
-  comment: two
-  action: MyString
-  checked: false
+comment:
+  visitor: michael
+  visited: archer
+  micropost: zone
+  comment: apple
+  action: comment
+  checked: true
+
+follow_two:
+  visitor: lana
+  visited: archer
+  micropost: ""
+  comment: ""
+  action: follow
+  checked: true
+
+follow_three:
+  visitor: michael
+  visited: lana
+  micropost: ""
+  comment: ""
+  action: follow
+  checked: true
+

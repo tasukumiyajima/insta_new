@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   get '/signup', to: 'users#new'
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
-  get '/bookmark_show', to: 'users#bookmark_show'
   
   resources :users do
     member do
@@ -22,7 +21,7 @@ Rails.application.routes.draw do
   resources :password_resets, only: [:new, :create, :edit, :update]
   resources :password_changes, only: [:edit, :update]
   resources :relationships, only: [:create, :destroy]
-  resources :bookmarks, only: [:create, :destroy]
+  resources :bookmarks, only: [:show, :create, :destroy]
   resources :notifications, only: [:index, :destroy]
 
 end

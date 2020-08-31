@@ -7,7 +7,8 @@
       </div>
       <nav class="col-xs-9">
         <div class="nav navbar-nav hidden-xs">
-          <%= form_with(class: "search-form",  url: search_path, scope: :static_page, method: :get, local: true) do |f| %>
+          <%= form_with(class: "search-form",  url: search_path, scope: :static_page, 
+                                                  method: :get, local: true) do |f| %>
             <%= f.text_field :search, class: "form-control", placeholder: "検索" %>
             <%= f.submit '検索', class: "form-btn" %>
           <% end %>
@@ -42,7 +43,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><%= link_to "プロフィール", current_user %></li>
-              <li><%= link_to "保存済み", bookmark_show_path(current_user) %></li>
+              <li><%= link_to "保存済み", bookmark_path(current_user) %></li>
               <li><%= link_to "設定", edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li>

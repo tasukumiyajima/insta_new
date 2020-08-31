@@ -73,6 +73,29 @@ class UserTest < ActiveSupport::TestCase
     assert_not @user.valid?
   end
 
+  test "phone_number should be number " do
+    @user.phone_number = "a" * 9
+    assert_not @user.valid?
+  end
+
+  test "phone_number should have correct length " do
+    @user.phone_number = "1" * 8
+    assert_not @user.valid?
+    @user.phone_number = "1" * 9
+    assert @user.valid?
+    @user.phone_number = "1" * 13
+    assert_not @user.valid?
+  end
+
+  test "sex should be number " do
+    @user.sex = "a"
+    assert_not @user.valid?
+    @user.sex = 1
+    assert @user.valid?
+    @user.sex = 2
+    assert @user.valid?
+  end
+
   test "authenticated? should return false for a user with nil digest" do
     assert_not @user.authenticated?(:remember, '')
   end
@@ -122,24 +145,5 @@ class UserTest < ActiveSupport::TestCase
     michael.bookmark(zone)
     assert michael.bookmarked_microposts?(zone)
   end
-
-  # test "feed should have the right posts" do
-  #   michael = users(:michael)
-  #   archer  = users(:archer)
-  #   lana    = users(:lana)
-  #   # michaelがフォローしているユーザーであるlanaの投稿を確認
-  #   lana.microposts.each do |post_following|
-  #     assert michael.feed.include?(post_following)
-  #   end
-  #   # 自分自身の投稿を確認
-  #   michael.microposts.each do |post_self|
-  #     assert michael.feed.include?(post_self)
-  #   end
-  #   # michaelがフォローしていないユーザーであるarcherの投稿を確認
-  #   archer.microposts.each do |post_unfollowed|
-  #     assert_not michael.feed.include?(post_unfollowed)
-  #   end
-  # end
-
 
 end
