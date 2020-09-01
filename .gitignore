@@ -44,6 +44,6 @@ yarn-debug.log*
 /public/uploads
 
 
-/public/uploads/micropost/picture
-/public/uploads/tmp
+/public/uploads/
+/public/uploads/tmp/
 /test/.DS_Store
