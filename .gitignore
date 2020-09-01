@@ -28,6 +28,7 @@
 !/storage/.keep
 
 /public/assets
+/public/uploads
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
@@ -44,6 +45,4 @@ yarn-debug.log*
 /public/uploads
 
 
-/public/uploads/
-/public/uploads/tmp/
 /test/.DS_Store
