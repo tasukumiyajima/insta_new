@@ -6,6 +6,7 @@ class PasswordResetsTest < ActionDispatch::IntegrationTest
   def setup
     ActionMailer::Base.deliveries.clear
     @user = users(:michael)
+    @facebook_user = users(:facebook)
   end
 
   test "password resets" do
@@ -61,4 +62,16 @@ class PasswordResetsTest < ActionDispatch::IntegrationTest
     assert_not flash.empty?
     assert_redirected_to user
   end
+
+  test "facebook user cannot reset password" do
+    get new_password_reset_path
+    assert_template 'password_resets/new'
+    # メールアドレスが無効
+    post password_resets_path, 
+          params: { password_reset: { email: @facebook_user.email } }
+    assert_equal 0, ActionMailer::Base.deliveries.size
+    assert_not flash.empty?
+    assert_redirected_to root_url
+  end
+
 end

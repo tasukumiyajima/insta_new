@@ -9,12 +9,17 @@ class PasswordResetsController < ApplicationController
   def create
     @user = User.find_by(email: params[:password_reset][:email].downcase)
     if @user
-      @user.create_reset_digest # データベースにreset_digestを保存する
-      @user.send_password_reset_email #パスワードリセットのメールをユーザーに送信する
-      flash[:info] = "パスワードリセットのためのemailを送付しました。"
-      redirect_to root_url
+      if @user.uid.blank?
+        @user.create_reset_digest # データベースにreset_digestを保存する
+        @user.send_password_reset_email #パスワードリセットのメールをユーザーに送信する
+        flash[:info] = "パスワードリセットのためのemailを送付しました"
+        redirect_to root_url
+      else
+        flash[:info] = "パスワードを設定する必要はありません。Facebookアカウントを使ってログインしてください。"
+        redirect_to root_url
+      end
     else
-      flash.now[:danger] = "一致するユーザーが見つかりませんでした。"
+      flash.now[:danger] = "一致するユーザーが見つかりませんでした"
       render 'new'
     end
   end
@@ -30,7 +35,7 @@ class PasswordResetsController < ApplicationController
       log_in @user
       remember(@user)
       @user.update_attribute(:reset_digest, nil)
-      flash[:success] = "パスワードが再設定されました。"
+      flash[:success] = "パスワードが再設定されました"
       redirect_to @user
     else
       render 'edit' # パスワードが正しくない場合

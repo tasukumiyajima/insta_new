@@ -1,6 +1,7 @@
 class PasswordChangesController < ApplicationController
   before_action :logged_in_user
   before_action :correct_user
+  before_action :facebook_user
 
   def edit
   end
@@ -33,6 +34,14 @@ class PasswordChangesController < ApplicationController
     def correct_user
       @user = User.find(params[:id])
       redirect_to(root_url) unless current_user?(@user)
+    end
+
+    def facebook_user
+      @user = User.find(params[:id])
+      unless @user.uid.blank?
+        flash[:info] = "パスワードを設定する必要はありません。Facebookアカウントを使用してください。"
+        redirect_to request.referrer || root_url
+      end  
     end
 
 end

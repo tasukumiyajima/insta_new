@@ -5,6 +5,7 @@ class PasswordChangesTest < ActionDispatch::IntegrationTest
   def setup
     @user = users(:michael)
     @other_user = users(:archer)
+    @facebook_user = users(:facebook)
   end
 
   test "unsuccessful and successful change" do
@@ -59,6 +60,19 @@ class PasswordChangesTest < ActionDispatch::IntegrationTest
       current_password:  "password",
       password: "foobar",
       password_confirmation: "foobar"} }
+    assert_redirected_to root_url
+  end
+
+  test "facebook user cannot change password" do
+    # facebookでログインしてプロフィール編集ページにアクセス
+    log_in_as(@facebook_user)
+    get edit_user_path(@facebook_user)
+    assert_template 'users/edit'
+    # パスワード編集
+    get edit_password_change_path(@facebook_user)
+    assert_not flash.empty?
+    assert_redirected_to root_url
+    patch password_change_path(@facebook_user)
     assert_redirected_to root_url
   end
 
