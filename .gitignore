@@ -42,3 +42,8 @@ yarn-debug.log*
 
 # アップロードされたテスト画像を無視する
 /public/uploads
+
+
+/public/uploads/micropost/picture
+/public/uploads/tmp
+/test/.DS_Store
