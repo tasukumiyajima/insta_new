@@ -1,0 +1,3 @@
+<%# ajaxがうまく動かないのでこのファイルは消しても問題ない %>
+$("#bookmark_form").html("<%= escape_javascript(render :partial => 'microposts/bookmark',
+                                   :locals => { :micropost => @micropost }) %>");

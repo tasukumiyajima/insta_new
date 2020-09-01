@@ -1,0 +1,11 @@
+one:
+  user: michael
+  micropost: ants #archerの投稿
+
+two:
+  user: archer
+  micropost: zone #archerの投稿
+
+three:
+  user: lana
+  micropost: zone #archerの投稿

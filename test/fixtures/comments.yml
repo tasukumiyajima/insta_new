@@ -1,0 +1,18 @@
+apple:
+  content: "I just ate an apple!"
+  created_at: <%= 10.minutes.ago %>
+  user: michael
+  micropost: zone #archerの投稿
+
+hello:
+  content: "hello hello!"
+  created_at: <%= 5.minutes.ago %>
+  user: lana
+  micropost: zone #archerの投稿
+  
+fuck:
+  content: "fuck you!"
+  created_at: <%= 1.minutes.ago %>
+  user: michael
+  micropost: zone #archerの投稿
+

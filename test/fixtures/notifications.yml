@@ -1,0 +1,40 @@
+follow:
+  visitor: michael
+  visited: archer
+  micropost: ""
+  comment: ""
+  action: follow
+  checked: true
+
+bookmark:
+  visitor: michael
+  visited: archer
+  micropost: hurry
+  comment: ""
+  action: bookmark
+  checked: true
+
+comment:
+  visitor: michael
+  visited: archer
+  micropost: zone
+  comment: apple
+  action: comment
+  checked: true
+
+follow_two:
+  visitor: lana
+  visited: archer
+  micropost: ""
+  comment: ""
+  action: follow
+  checked: true
+
+follow_three:
+  visitor: michael
+  visited: lana
+  micropost: ""
+  comment: ""
+  action: follow
+  checked: true
+

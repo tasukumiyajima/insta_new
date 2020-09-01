@@ -1,0 +1,60 @@
+<% if logged_in? %>
+<header class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3">
+        <%= link_to image_tag("instagram.png", alt: "logo", width: "100px", id: "logo"), root_path %>
+      </div>
+      <nav class="col-xs-9">
+        <div class="nav navbar-nav hidden-xs">
+          <%= form_with(class: "search-form",  url: search_path, scope: :static_page, 
+                                                  method: :get, local: true) do |f| %>
+            <%= f.text_field :search, class: "form-control", placeholder: "検索" %>
+            <%= f.submit '検索', class: "form-btn" %>
+          <% end %>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <%= link_to root_path do %>
+              <span class= "fa fa-home fa-lg"></span>
+            <%end%>
+          </li>
+          <li>
+            <%= link_to new_micropost_path do %>
+              <span class= "fa fa-plus-square-o fa-lg"></span>
+            <%end%>
+          </li>
+          <li>
+            <%= link_to users_path do %>
+              <span class= "fa fa-address-book-o fa-lg"></span>
+            <%end%>
+          </li>
+          <li>
+            <%= link_to notifications_path do %>
+              <span class= "fa fa-heart-o fa-lg"></span>
+              <% if unchecked_notifications.any? %> 
+                <span class="fa fa-circle"></span>
+              <% end %> 
+            <%end%>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class= "fa fa-user-circle-o fa-lg"></span><b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to "プロフィール", current_user %></li>
+              <li><%= link_to "保存済み", bookmark_path(current_user) %></li>
+              <li><%= link_to "設定", edit_user_path(current_user) %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to "ログアウト", logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<% else %>
+<% end %>

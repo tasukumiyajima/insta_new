@@ -1,0 +1,37 @@
+<% provide(:title, @title) %>
+
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1 col-md-12">
+    <div class="user-profile">
+      <%= gravatar_for current_user %>
+      <div class="user-profile-content">
+        <div class="user-title">
+          <div class= "user-name">
+            <%= link_to current_user.name, current_user %>
+          </div>
+        </div>
+        <div class="user-info">
+          <div class="post-number">投稿 <%= current_user.microposts.count %>件</div>
+        </div>
+        <section class="stats">
+          <%= render 'shared/stats' %>
+          <% if @users.any? %>
+            <div class="user_avatars">
+              <% @users.each do |user| %>
+                <%= link_to gravatar_for(user, size: 30), user %>
+              <% end %>
+            </div>
+          <% end %>
+        </section>
+      </div>
+    </div>
+
+    <h3><%= @title %></h3>
+    <% if @users.any? %>
+      <ul class="users follow">
+        <%= render @users %>
+      </ul>
+      <%= will_paginate %>
+    <% end %>
+  </div>
+</div>

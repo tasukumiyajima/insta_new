@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>InstaApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                               'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application',
+                               'data-turbolinks-track': 'reload' %>
+    <%=render 'layouts/shim'%>
+    <title><%= full_title(yield(:title)) %></title>
+    <meta name="description" content="インスタグラムのコピーサイトです。画像の投稿ができる簡易的なSNSです。">
+    <meta name="keywords" content="コピーサイト, ポートフォリオ, エンジニア初心者, インスタグラム">
+    <%= favicon_link_tag('favicon.ico') %>
+    <%= analytics_init if Rails.env.production? %>
   </head>
-
   <body>
-    <%= yield %>
+    <%=render 'layouts/header'%>
+    <div class="container">
+      <% flash.each do |message_type, message| %>
+        <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
+      <% end %>
+      <%= yield %>
+      <%=render 'layouts/footer'%>
+      <%= debug(params) if Rails.env.development? %>
+    </div>
   </body>
 </html>

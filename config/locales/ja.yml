@@ -1,0 +1,22 @@
+ja:
+  activerecord:
+    models:
+      user: ユーザー
+      micropost: 投稿
+      comment: コメント
+    attributes:
+      user:
+        name: フルネーム
+        user_name: ユーザーネーム
+        email: メールアドレス
+        password: パスワード
+        website: ウェブサイト
+        introduction: 自己紹介
+        phone_number: 電話番号
+        sex: 性別
+      micropost:
+        content: 投稿文
+        picture: 写真
+      comment:
+        content: コメント
+

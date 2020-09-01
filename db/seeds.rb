@@ -1,7 +1,69 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+# 管理者ユーザーを1人作成する
+User.create!(name:  "Admin User",
+             user_name: "Admin",
+             email: "admin@railstutorial.org",
+             password: "passwordpassword",
+             website: "https://www.youtube.com/",
+             introduction: "管理者やってます。ruby on railsの勉強中です。宜しくお願いします。",
+             phone_number: 111222333,
+             sex: 1,
+             admin: true)
+
+# メインのサンプルユーザーを1人作成する
+User.create!(name:  "テストユーザー1",
+             user_name: "テスト1",
+             email: "example-one@user.com",
+             password: "password",
+             website: "https://camp.potepan.com/",
+             introduction: "テストユーザーやってます。この自己紹介文は書き換えてもらって大丈夫です。",
+             phone_number: 111222333,
+             sex: 1 )
+
+# メインのサンプルユーザーを1人作成する
+User.create!(name:  "テストユーザー2",
+             user_name: "テスト2",
+             email: "example-two@user.com",
+             password: "password",
+             website: "https://camp.potepan.com/",
+             introduction: "テストユーザーやってます。2番目のテストユーザーとして、１番目のテストユーザーの投稿にブックマークとかコメントとかしてみてください。",
+             phone_number: 111222333,
+             sex: 2 )
+
+# 追加のユーザーをまとめて生成する
+50.times do |n|
+  name  = Faker::Name.name
+  user_name = Faker::Games::Pokemon.name
+  email = "example-#{n+1}@railstutorial.org"
+  password = "password"
+  website = "https://camp.potepan.com/"
+  introduction = Faker::Lorem.sentence
+  User.create!(name: name,
+               user_name: user_name,
+               email: email,
+               password: password,
+               website: website,
+               introduction: introduction)
+end
+
+# ユーザーの一部を対象にマイクロポストを生成する
+users = User.order(:created_at).take(6)
+10.times do |n|
+  content = Faker::Games::Pokemon.move
+  picture = open("db/fixtures/img#{n+1}.jpg")
+  users.each { |user| user.microposts.create!(content: content, picture: picture) }
+end
+
+# マイクロポストの一部を対象にコメントを生成する
+microposts = Micropost.all
+user  = users.second
+comented_micropost = microposts[1..20]
+comment = Faker::Games::Pokemon.location
+comented_micropost.each { |micropost| user.comments.create!(content: comment, micropost_id: micropost.id) }
+
+# サンプルユーザーのフォロワーとフォロー中を作成する
+users = User.all
+user  = users.second
+following = users[3..30]
+followers = users[4..20]
+following.each { |followed| user.follow(followed) }
+followers.each { |follower| follower.follow(user) }

@@ -1,0 +1,38 @@
+<% provide(:title, '登録') %>
+<% provide(:button_text, '登録する') %>
+
+<div class="row center">
+  <div class="main-form col-md-6 col-xs-offset-3">
+
+    <div class="box-1">
+      <%= link_to image_tag("instagram.png", alt: "logo", width: "200px", class: "image_tag"), root_path %>
+      <h4>登録して友達の写真や動画をチェックしよう</h4>
+
+        <div class="btn btn-primary btn-facebook">
+          <a href="/auth/facebook"><span class="fa fa-facebook-square"></span>Facebookでログイン</a>
+        </div>
+      
+      <div class="title-border">または</div>
+
+      <%= form_with(model: @user, local: true) do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
+        <%= f.email_field :email, class: 'form-control', placeholder: "メールアドレス" %>
+        <%= f.text_field :name, class: 'form-control', placeholder: "フルネーム" %>
+        <%= f.text_field :user_name, class: 'form-control', placeholder: "ユーザーネーム" %>
+        <%= f.password_field :password, class: 'form-control', placeholder: "パスワード" %>
+        <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+      <% end %>
+
+      <small class="sub-text">登録することで、Facebookの利用規約、データに関するポリシー、Cookieポリシーに同意するものとします。</small>
+    </div>
+
+    <div class="box-2">
+      <p class="align-items-center">アカウントをお持ちですか？<br>
+      <%= link_to "ログインする", root_path %></p>
+    </div>
+
+      <p>ダウンロード</p>
+      <%= link_to image_tag("appstore.png", alt: "logo", width: "150px"), "#" %>
+      <%= link_to image_tag("googleplay.png", alt: "logo", width: "150px"), "#" %>
+  </div>
+</div>
